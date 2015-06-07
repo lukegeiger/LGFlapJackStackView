@@ -1,6 +1,5 @@
 # LGFlapJackStackView
 
-[![CI Status](http://img.shields.io/travis/Luke Geiger/LGFlapJackStackView.svg?style=flat)](https://travis-ci.org/Luke Geiger/LGFlapJackStackView)
 [![Version](https://img.shields.io/cocoapods/v/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
 [![License](https://img.shields.io/cocoapods/l/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
 [![Platform](https://img.shields.io/cocoapods/p/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
