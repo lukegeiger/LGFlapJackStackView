@@ -9,7 +9,7 @@
 </p>
 
 ## Motivation
-When creating my app HoopMetrics, I found myself in need of a type of graph that would display the result of two numbers competing with one another in a specific category. The greater the difference in their competition, the more dominate it would appear visually. This is the type of graph that was my soloution to that problem. If you need to display a Head-To-Head matchup this graph may be useful for you.
+When creating my app HoopMetrics, I found myself in need of a type of graph that would display the result of two numbers competing with one another in a specific category. The greater the difference in their competition, the more dominate it would appear visually. This is the type of graph that was my soloution to that problem. If you need to display a Head-To-Head matchup, this graph may be useful for you.
 
 ## Usage
 There are three classes that play together to make this graph happen. A LGFlapJack, a LGFlapJackCell, and a LGFlapJackView. All you need to do is create LGFlapJack model items, store them in array, and pass them to the LGFlapJackView, and the rest is handled for you.
@@ -35,12 +35,17 @@ There are three classes that play together to make this graph happen. A LGFlapJa
     [self.view addSubview:self.lgFlapJackStackView];
 
 ```
+##Customization
+All colors, fonts, etc are editable. If you want to edit the label that is in the bars of the flapjack, simply subclass LGFlapJack, and override rightBarFormatString or leftBarFormatString. 
+
+As it stands right now, there are no default headers or footers for this graph, but you can pass in a custom view if you wish. (See Possible improvments section)
 
 ## Edge Cases
 As it sits right now, if one flapjacks right or left number is severely dominating, it pushes out the lesser number to a point where you cant see it displayed on the graph. I am looking to add a maximumWidth property on the bars soon.
 
 ## Possible Improvements
-I want to add some sort of animation to this... But the animation should serve some purpose, and it shouldn't just animate just to animate.
+- I want to add some sort of animation to this... But the animation should serve some purpose, and it shouldn't just animate just to animate.
+- I also want to add a default footer/header.
 
 ## Installation
 
