@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LGFlapJackStackView"
-  s.version          = "0.1.0"
+  s.version          = "0.4.0"
   s.summary          = "A view that supports horizontally stacked bar graphs that displays two bars competing with each other."
   s.description      = <<-DESC
                        This class is useful if you are trying to display two categories that are competing with each other on a numerical basis. For example, if you are displaying a sports teams season points vs that teams points surrendered. This view may give you that head to head matchup look you are going for.
