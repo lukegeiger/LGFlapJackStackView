@@ -39,6 +39,8 @@ static NSString *cellIdentifier = @"CellIdentifier";
 
 -(void)defaultSettings{
     
+    self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+
     _flapJackHeight = 50;
     _barLabelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:12];
     _inlineLabelFont =  [UIFont fontWithName:@"HelveticaNeue-Light" size:12];
@@ -48,7 +50,6 @@ static NSString *cellIdentifier = @"CellIdentifier";
     self.tableView = [[UITableView alloc]initWithFrame:self.bounds style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     self.tableView.dataSource = self;
     [self.tableView registerClass:[LGFlapJackTableViewCell class] forCellReuseIdentifier:cellIdentifier];
     self.tableView.tableFooterView = [UIView new];
