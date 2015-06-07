@@ -6,6 +6,11 @@
 
 ## Usage
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lukegeiger/LGFlapJackStackView/master/lukegeiger-flapjack.png">
+</p>
+
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
