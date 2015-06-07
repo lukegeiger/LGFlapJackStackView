@@ -50,7 +50,9 @@ As it sits right now, if one flapjack's right or left number is severely dominat
 ## Possible Improvements
 - I want to add some sort of animation to this... But the animation should serve some purpose, and it shouldn't just animate just to animate.
 - I also want to add a default footer/header.
-
+- Adding/Removing Flap Jacks
+- Sorting Flap Jacks
+- 
 ## Implementation Notes
 - What appears to be rows in this table view, are actually sections. I chose to implement it like this because later down the line I may want to take advantage of the titleForSection or footerForSection methods on the UITableView's data source protocol.
 
