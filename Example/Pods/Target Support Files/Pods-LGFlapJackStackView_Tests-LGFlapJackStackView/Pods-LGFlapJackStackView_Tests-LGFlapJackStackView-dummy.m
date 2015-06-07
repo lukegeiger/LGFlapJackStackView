@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_LGFlapJackStackView_Tests_LGFlapJackStackView : NSObject
+@end
+@implementation PodsDummy_Pods_LGFlapJackStackView_Tests_LGFlapJackStackView
+@end

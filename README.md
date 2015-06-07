@@ -1,6 +1,29 @@
 # LGFlapJackStackView
 
-A view that supports horizontally stacked bar graphs. I call them Flap Jacks.
+[![CI Status](http://img.shields.io/travis/Luke Geiger/LGFlapJackStackView.svg?style=flat)](https://travis-ci.org/Luke Geiger/LGFlapJackStackView)
+[![Version](https://img.shields.io/cocoapods/v/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
+[![License](https://img.shields.io/cocoapods/l/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
+[![Platform](https://img.shields.io/cocoapods/p/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
 
-*Coming Soon*
+## Usage
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+LGFlapJackStackView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "LGFlapJackStackView"
+```
+
+## Author
+
+Luke Geiger, lukejamesgeiger@gmail.com
+
+## License
+
+LGFlapJackStackView is available under the MIT license. See the LICENSE file for more info.

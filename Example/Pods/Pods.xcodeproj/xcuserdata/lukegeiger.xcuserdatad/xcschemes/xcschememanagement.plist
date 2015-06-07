@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LGFlapJackStackView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LGFlapJackStackView_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LGFlapJackStackView_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>89A7279D0F2715916D9B5A72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFDCC940F28D6CDDA9843D34</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D234BCEFEFD9C6AD3ED71D68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E93787DCC931CA9A3F1332EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE98633016CC9BEF528538C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

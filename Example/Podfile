@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'LGFlapJackStackView_Example', :exclusive => true do
+  pod "LGFlapJackStackView", :path => "../"
+end
+
+target 'LGFlapJackStackView_Tests', :exclusive => true do
+  pod "LGFlapJackStackView", :path => "../"
+
+  
+end
