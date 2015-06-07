@@ -31,6 +31,10 @@ There are three classes that play together to make this graph happen. A LGFlapJa
     self.lgFlapJackStackView = [[LGFlapJackStackView alloc]initWithFrame:self.view.bounds];
     self.lgFlapJackStackView.flapJacks = flapJacks;
     self.lgFlapJackStackView.flapJackHeight = 42;
+    self.lgFlapJackStackView.barLabelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:12];
+    self.lgFlapJackStackView.barLabelTextColor = [UIColor colorWithRed:85/255. green:85/255. blue:85/255. alpha:1.0];
+    self.lgFlapJackStackView.inlineLabelFont =  [UIFont fontWithName:@"HelveticaNeue-Light" size:12];
+    self.lgFlapJackStackView.inlineLabelTextColor = [UIColor colorWithRed:100/255. green:100/255. blue:100/255. alpha:1.0];
     self.lgFlapJackStackView.tableFooterView = [self sampleFooterView];
     [self.view addSubview:self.lgFlapJackStackView];
 
