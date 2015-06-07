@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "LGFlapJackStackView"
   s.version          = "0.1.0"
-  s.summary          = "A view that supports horizontally stacked bar graphs. I call them Flap Jacks."
+  s.summary          = "A view that supports horizontally stacked bar graphs that displays two bars competing with each other."
   s.description      = <<-DESC
-                       A view that supports horizontally stacked bar graphs. I call them Flap Jacks
+                       A view that supports horizontally stacked bar graphs that displays two bars competing with each other.
                        DESC
   s.homepage         = "https://github.com/lukegeiger/LGFlapJackStackView"
   s.license          = 'MIT'

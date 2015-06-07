@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- This is a graph that allows you to display to point values against each other. The higher the point value on the left or right, the more dominant the side appears in terms of width. This is a useful class if you are trying to display a "head to head" sort of deal.
+ This is a graph that allows you to display two point values against each other. The higher the point value on the left or right, the more dominant the side appears in terms of width. This is a useful class if you are trying to display a "head to head" sort of deal.
  */
 @interface LGFlapJackStackView : UIView
 
