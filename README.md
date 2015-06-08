@@ -22,6 +22,7 @@ There are three classes that play together to make this graph happen. A LGFlapJa
         LGFlapJack *flapJack = [LGFlapJack new];
         flapJack.leftBarTotal = [NSNumber numberWithInt:[self getRandomNumberBetween:0 to:100]];
         flapJack.rightBarTotal = [NSNumber numberWithInt:[self getRandomNumberBetween:0 to:100]];
+        //Each bar can be its own color.
         flapJack.leftBarColor = [UIColor colorWithRed:17/255. green:159/255. blue:194/255. alpha:1.0];
         flapJack.rightBarColor = [UIColor colorWithRed:206/255. green:218/255. blue:60/255. alpha:1.0];
         flapJack.inlineString = [self randomCategoryName];
@@ -42,7 +43,7 @@ There are three classes that play together to make this graph happen. A LGFlapJa
 ##Customization
 All colors, fonts, etc are editable. If you want to edit the label that is in the bars of the flapjack, simply subclass LGFlapJack, and override rightBarFormatString or leftBarFormatString. 
 
-As it stands right now, there are no default headers or footers for this graph, but you can pass in a custom view if you wish. (See Possible Improvments section)
+As it stands right now, there are no default headers or footers for this graph, but you can pass in a custom view if you wish. (See Possible Improvements section)
 
 ## Edge Cases
 As it sits right now, if one flapjack's right or left number is severely dominating, it pushes out the lesser to a point where you can't see it displayed on the graph. I am looking to add a maximumWidth property on the bars soon.
