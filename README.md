@@ -53,7 +53,7 @@ Currently, the LGFlapJackStackView supports being exported to a CSV or as an ima
 -(NSString*)graphAsCSVStringWithLeftBarName:(NSString*)leftBarName rightBarName:(NSString*)rightBarName;
 ```
 
-As a reminder, to add a CVS string to an email attachment, you would do something like the following.
+As a reminder, to add a CSV string to an email attachment, you would do something like the following.
 
 ```objective-c
 //An excerpt from the demo. 
@@ -69,6 +69,15 @@ NSData*csvData = [[self.lgFlapJackStackView graphAsCSVStringWithLeftBarName:@"Bl
 
 [self presentViewController:mailViewController animated:YES completion:nil];
 ```
+
+A CSV attachment looks something like this. The bar column names are customizble.
+
+| Category  | Blue Team | Green Team |
+|-----------|-----------|------------|
+| PTS       | 34        | 53         |
+| RBD       | 44        | 22         |
+| AST       | 10        | 55         |
+
 
 ##Customization
 All colors, fonts, etc are editable. If you want to edit the label that is in the bars of the flapjack, simply subclass LGFlapJack, and override rightBarFormatString or leftBarFormatString. 
