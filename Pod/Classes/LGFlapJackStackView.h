@@ -53,11 +53,26 @@
  */
 @property (nonatomic, weak)   UIView *tableHeaderView;
 
+/**
+ This is the name of the graph that will be shown in attachedments.
+ */
+@property (nonatomic, strong) NSString *name;
+
+/**
+ This function will render the graph to an image.
+ @returns the graph as a UIImage.
+ */
+-(UIImage*)graphAsImage;
+
+/**
+ This function will give the the CSV (Excel Representation) of the graph. (Name,Left Value, Total Value,Percentage)
+ @returns the graph in a format compatible with excel spread sheets.
+ */
+-(NSString*)graphAsCSVStringWithLeftBarName:(NSString*)leftBarName rightBarName:(NSString*)rightBarName;
 
 /**
     Reloads the table.
  */
-
 -(void)reload;
 
 @end

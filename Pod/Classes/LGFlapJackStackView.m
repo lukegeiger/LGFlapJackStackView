@@ -46,6 +46,7 @@ static NSString *cellIdentifier = @"CellIdentifier";
     _inlineLabelFont =  [UIFont fontWithName:@"HelveticaNeue-Light" size:12];
     _inlineLabelTextColor = [UIColor colorWithRed:100/255. green:100/255. blue:100/255. alpha:1.0];
     _barLabelTextColor = [UIColor colorWithRed:85/255. green:85/255. blue:85/255. alpha:1.0];
+    _name = @"LGFlapJackStack";
     
     self.tableView = [[UITableView alloc]initWithFrame:self.bounds style:UITableViewStylePlain];
     self.tableView.delegate = self;
@@ -103,7 +104,6 @@ static NSString *cellIdentifier = @"CellIdentifier";
     [self.tableView reloadData];
 }
 
-
 #pragma mark Setter Overrides
 
 -(void)setFlapJacks:(NSArray *)flapJacks
@@ -149,6 +149,24 @@ static NSString *cellIdentifier = @"CellIdentifier";
 
 -(void)reload{
     [self.tableView reloadData];
+}
+
+-(UIImage*)graphAsImage{
+    UIImage *image = nil;
+    UIGraphicsBeginImageContextWithOptions(self.tableView.bounds.size, NO, [UIScreen mainScreen].scale);
+    [self.tableView.layer renderInContext:UIGraphicsGetCurrentContext()];
+    image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
+-(NSString*)graphAsCSVStringWithLeftBarName:(NSString *)leftBarName rightBarName:(NSString *)rightBarName{
+    NSMutableString *csvString = [NSMutableString new];
+    [csvString appendString:[NSString stringWithFormat:@"Category,%@,%@\n",leftBarName,rightBarName]];
+    for (LGFlapJack*flapJack in _flapJacks) {
+        [csvString appendString:[NSString stringWithFormat:@"%@,%@,%@\n",flapJack.inlineString,flapJack.leftBarTotal,flapJack.rightBarTotal]];
+    }
+    return csvString;
 }
 
 @end
