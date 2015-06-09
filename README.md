@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lukegeiger/LGFlapJackStackView/master/lukegeiger-flapjack.png">
+  <img src="https://raw.githubusercontent.com/lukegeiger/LGFlapJackStackView/master/lukegeiger-flapjackstackview-ios-objective-c-detroit.png">
 </p>
 
 ## Motivation
