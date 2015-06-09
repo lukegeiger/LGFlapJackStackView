@@ -69,6 +69,7 @@ pod "LGFlapJackStackView"
 ## Author
 
 Luke Geiger, lukejamesgeiger@gmail.com
+
 @lukejgeiger
 
 ## License
