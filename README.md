@@ -37,6 +37,10 @@ There are three classes that play together to make this graph happen. A LGFlapJa
     self.lgFlapJackStackView.inlineLabelFont =  [UIFont fontWithName:@"HelveticaNeue-Light" size:12];
     self.lgFlapJackStackView.inlineLabelTextColor = [UIColor colorWithRed:100/255. green:100/255. blue:100/255. alpha:1.0];
     self.lgFlapJackStackView.tableFooterView = [self sampleFooterView];
+    
+    //Name of the graph that is shown in email attachements.
+    self.lgFlapJackStackView.name = @"lukegeiger";
+    
     [self.view addSubview:self.lgFlapJackStackView];
 
 ```
@@ -44,6 +48,16 @@ There are three classes that play together to make this graph happen. A LGFlapJa
 All colors, fonts, etc are editable. If you want to edit the label that is in the bars of the flapjack, simply subclass LGFlapJack, and override rightBarFormatString or leftBarFormatString. 
 
 As it stands right now, there are no default headers or footers for this graph, but you can pass in a custom view if you wish. (See Possible Improvements section)
+
+## Exportability
+Currently, the LGFlapJackStackView supports being exported to a CSV or as an image. You may find these functions useful to achieve that. To customize these further, look into subclassing the LGFlapJackStack view, or submit an issue on GitHub.
+
+```objective-c
+//LGFlapJackStackView.h
+-(UIImage*)graphAsImage;
+-(NSString*)graphAsCSVStringWithLeftBarName:(NSString*)leftBarName rightBarName:(NSString*)rightBarName;
+
+```
 
 ## Edge Cases
 As it sits right now, if one flapjack's right or left number is severely dominating, it pushes out the lesser to a point where you can't see it displayed on the graph. I am looking to add a maximumWidth property on the bars soon.
