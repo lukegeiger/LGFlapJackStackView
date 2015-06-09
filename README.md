@@ -56,7 +56,21 @@ Currently, the LGFlapJackStackView supports being exported to a CSV or as an ima
 //LGFlapJackStackView.h
 -(UIImage*)graphAsImage;
 -(NSString*)graphAsCSVStringWithLeftBarName:(NSString*)leftBarName rightBarName:(NSString*)rightBarName;
+```
 
+As a reminder, to add a CVS string to an email attachment, you would do something like the following.
+
+```objective-c
+//An excerpt from the demo. 
+          MFMailComposeViewController *mailViewController = [MFMailComposeViewController new];
+            [mailViewController setMessageBody:@"If you enjoyed this demo, follow me on twitter! @lukejgeiger" isHTML:NO];
+            mailViewController.mailComposeDelegate = self;
+            
+            //Converts NSString to NSData. You then take this data and add it to the MFMailComposeViewController.
+            NSData*csvData = [[self.lgFlapJackStackView graphAsCSVStringWithLeftBarName:@"Blue Team" rightBarName:@"Green Team"]dataUsingEncoding:NSUTF8StringEncoding];
+            
+            [mailViewController addAttachmentData:data mimeType:@"text/csv" fileName:[NSString stringWithFormat:@"%@.csv",self.lgFlapJackStackView.name]];
+            [self presentViewController:mailViewController animated:YES completion:nil];
 ```
 
 ## Edge Cases
