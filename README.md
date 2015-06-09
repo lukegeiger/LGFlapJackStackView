@@ -9,10 +9,10 @@
 </p>
 
 ## Motivation
-When creating my app HoopMetrics, I found myself in need of a type of graph that would display the result of two numbers competing with one another in a specific category. The greater the difference in their competition, the more dominate it would appear visually. This is the type of graph that was my soloution to that problem. If you need to display a Head-To-Head matchup, this graph may be useful for you.
+When creating my app HoopMetrics, I found myself in need of a type of graph that would display the result of two numbers competing with one another in a specific category. The greater the difference in their competition, the more dominate it needed to appear visually. This is thegraph that was my soloution to that problem. If you need to display a head-to-head matchup, this graph may be useful for you.
 
 ## Usage
-There are three classes that play together to make this graph happen. A LGFlapJack, a LGFlapJackCell, and a LGFlapJackStackView. All you need to do is create LGFlapJack model items, store them in array, and pass them to the LGFlapJackView, and the rest is handled for you.
+There are three classes that play together to make this graph happen. A LGFlapJack, a LGFlapJackCell, and a LGFlapJackStackView. All you need to do is create LGFlapJack model items, store them in array, and pass them to the LGFlapJackView, and the rest is handled for you. This graph is exportable via CSV and Image. (See Exportability)
 
 ```objective-c
 
@@ -44,11 +44,6 @@ There are three classes that play together to make this graph happen. A LGFlapJa
     [self.view addSubview:self.lgFlapJackStackView];
 
 ```
-##Customization
-All colors, fonts, etc are editable. If you want to edit the label that is in the bars of the flapjack, simply subclass LGFlapJack, and override rightBarFormatString or leftBarFormatString. 
-
-As it stands right now, there are no default headers or footers for this graph, but you can pass in a custom view if you wish. (See Possible Improvements section)
-
 ## Exportability
 Currently, the LGFlapJackStackView supports being exported to a CSV or as an image. You may find these functions useful to achieve that. To customize these further, look into subclassing the LGFlapJackStack view, or submit an issue on GitHub.
 
@@ -75,14 +70,19 @@ NSData*csvData = [[self.lgFlapJackStackView graphAsCSVStringWithLeftBarName:@"Bl
 [self presentViewController:mailViewController animated:YES completion:nil];
 ```
 
+##Customization
+All colors, fonts, etc are editable. If you want to edit the label that is in the bars of the flapjack, simply subclass LGFlapJack, and override rightBarFormatString or leftBarFormatString. 
+
+As it stands right now, there are no default headers or footers for this graph, but you can pass in a custom view if you wish. (See Possible Improvements section)
+
 ## Edge Cases
 As it sits right now, if one flapjack's right or left number is severely dominating, it pushes out the lesser to a point where you can't see it displayed on the graph. I am looking to add a maximumWidth property on the bars soon.
 
 ## Possible Improvements
-- I want to add some sort of animation to this... But the animation should serve some purpose, and it shouldn't just animate just to animate.
-- I also want to add a default footer/header.
-- Adding/Removing Flap Jacks
-- Sorting Flap Jacks
+- Some sort of animation. But the animation should serve some purpose, and it shouldn't just animate just to animate.
+- Default Footer/Header.
+- Adding/Removing Flap Jacks.
+- Sorting Flap Jacks.
 
 ## Implementation Notes
 - What appears to be rows in this table view, are actually sections. I chose to implement it like this because later down the line I may want to take advantage of the titleForSection or footerForSection methods on the UITableView's data source protocol.
