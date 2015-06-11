@@ -9,7 +9,7 @@
 </p>
 
 ## Motivation
-When creating my app HoopMetrics, I found myself in need of a type of graph that would display the result of two numbers competing with one another in a specific category. The greater the difference in their competition, the more dominate it needed to appear visually. This is the graph that was my soloution to that problem. If you need to display a head-to-head matchup, this graph may be useful for you.
+When creating my app HoopMetrics, I found myself in need of a type of graph that would display the result of two numbers competing with one another in a specific category. The greater the difference in their competition, the more dominate it needed to appear visually. This is the graph that was my solution to that problem. If you need to display a head-to-head matchup, this graph may be useful for you.
 
 ## Usage
 There are three classes that play together to make this graph happen. A LGFlapJack, a LGFlapJackCell, and a LGFlapJackStackView. All you need to do is create LGFlapJack model items, store them in array, and pass them to the LGFlapJackView, and the rest is handled for you. This graph is exportable via CSV and Image. (See Exportability)
