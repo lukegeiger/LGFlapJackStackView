@@ -1,5 +1,6 @@
 #include "Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/LGFlapJackStackView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LGFlapJackStackView"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/LGFlapJackStackView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LGFlapJackStackView"
 OTHER_LDFLAGS = -ObjC
 PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

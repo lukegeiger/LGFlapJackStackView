@@ -1,5 +1,5 @@
 PODS:
-  - LGFlapJackStackView (1.0.0)
+  - LGFlapJackStackView (1.0.1)
 
 DEPENDENCIES:
   - LGFlapJackStackView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LGFlapJackStackView: 299e2226f4d1598939e9b768ec3d4a7b188e3143
+  LGFlapJackStackView: 5cf754bce6597cdc8e7b4e2e68898cbf8d95403a
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.37.2

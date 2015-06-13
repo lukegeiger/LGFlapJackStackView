@@ -1,1883 +1,864 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>01287C914DDA47E6832E3453</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>012E2F1BB55F182B70A884B5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0AB4244B2D85AFD2CC9814FF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>01F2A564EA621C119C1E56B9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>60D2ECA8730FF1CCB91B8083</string>
-				<string>60D22F9869D4688D29030693</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>02FB09E8297ED1D18B998DC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06B104444244FB2FEC212CC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>099039942BA0797FAE12E8CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07D4FB069A384F521EA87147</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LGFlapJackStackView_Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>099039942BA0797FAE12E8CE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B50D755F87D6F28688D0D5A5</string>
-				<string>30AD5699DE17A3FC3F19398F</string>
-				<string>263F3C8A9947177CC348E997</string>
-				<string>94A92714F386A9B843358388</string>
-				<string>F183151ED18941B662BB0C11</string>
-				<string>2C6363912A594377E8A1B315</string>
-				<string>5A5F48360C8A982CCAA8CC0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LGFlapJackStackView</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0AB4244B2D85AFD2CC9814FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10D9BAB325649DBCFA369D78</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>53221D7938CD389F844FA351</string>
-				<string>215C90E150C52027F5DE30D8</string>
-				<string>48AC7965C6092C24E4B37DE1</string>
-				<string>40D47DAFC5031612129E9704</string>
-				<string>ABB442C0279ADBFF00539286</string>
-				<string>B4F1A0EE86E45C33E5C2643E</string>
-				<string>4E233E4F76BC1702BEE6C2FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-LGFlapJackStackView_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17C89D47A744C626B004BBE3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FBFA4070A50473D9DF525439</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>186B4F501FAD6D47F45D6208</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C37C68B1AD24AF12C14980E3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>18D7B75EDE9EF87D60E78D1C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7C8D90222B5A0C40338D621A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F9EDE7406B86DA38F57A2A5C</string>
-			<key>remoteInfo</key>
-			<string>LGFlapJackStackView</string>
-		</dict>
-		<key>19431645C2C609D7AFA8A4F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>194D636CD85ED48E837541C4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7611CFF8D4FAB1F20A94C77F</string>
-				<string>10D9BAB325649DBCFA369D78</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19C6A062C6EFCA162799A4B5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5F83962CADC78D2B2A450411</string>
-				<string>990A141CA2ACB3162EB149D1</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>19DC093D10663DCF8B86883A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B7093D800F38896C4791D81</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1FCC8FEF018A13D7DAB7453E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66D35FAF2972DD0FF5D29ED0</string>
-				<string>06B104444244FB2FEC212CC5</string>
-				<string>F15B713CCAB6D7372F4443C8</string>
-				<string>2F980E61B2763092145EA50D</string>
-				<string>194D636CD85ED48E837541C4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FD7427A624AD603E8FE7B36</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>20A85850D7CC5F3B5D8C6BF0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>56869D0587CE02AC1B214119</string>
-			<key>buildPhases</key>
-			<array>
-				<string>78275A635AD1E153D059C359</string>
-				<string>974BE3D34744D62C1503A2C6</string>
-				<string>BAB235CE95E2AE0F886BE49F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9021A1C3D54810A32F573178</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView</string>
-			<key>productName</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView</string>
-			<key>productReference</key>
-			<string>34D6DF2522CDBE25A4E0F4CE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>215C90E150C52027F5DE30D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23E61220093BB5E5F0C5C8A0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7C8D90222B5A0C40338D621A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F9EDE7406B86DA38F57A2A5C</string>
-			<key>remoteInfo</key>
-			<string>LGFlapJackStackView</string>
-		</dict>
-		<key>263F3C8A9947177CC348E997</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LGFlapJackStackView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/LGFlapJackStackView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AA009047A258A208A627104</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C6363912A594377E8A1B315</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>LGFlapJackTableViewCell.m</string>
-			<key>path</key>
-			<string>Pod/Classes/LGFlapJackTableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2EC638DDC5B8BB29E9362F9B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C6363912A594377E8A1B315</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F980E61B2763092145EA50D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8A25B910156B843FA7216C55</string>
-				<string>07D4FB069A384F521EA87147</string>
-				<string>48984D9A6DDA0866ACB97C75</string>
-				<string>3E137A1BD7CA11D8469E1C67</string>
-				<string>34D6DF2522CDBE25A4E0F4CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30AD5699DE17A3FC3F19398F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>LGFlapJack.m</string>
-			<key>path</key>
-			<string>Pod/Classes/LGFlapJack.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>34D6DF2522CDBE25A4E0F4CE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3595BED0C270E5D5E05A4AB5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1B7093D800F38896C4791D81</string>
-				<string>FEE9C42D515E3D6E94E8C633</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>365523933D29651FA51EE6D7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8C790163C812A850FD6E7C2B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>39C1A6FE65FC1DCADD4E72BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39FB4F84B82FB7A69699C0C9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C1C993B4A43E050D3CA0CFDE</string>
-				<string>7D652AAD0A70E8357DF0093E</string>
-				<string>2EC638DDC5B8BB29E9362F9B</string>
-				<string>9DB486CA2D49811559D640C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3C47178D4D768EE0F077B71A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C6363912A594377E8A1B315</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3E137A1BD7CA11D8469E1C67</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LGFlapJackStackView_Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>40D47DAFC5031612129E9704</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41780AA9354C4316A5742FF6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6316CA38AD1C91DCDA5D2202</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>419C74C135903C4DDF34955F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>422E3F7D0148B1D5C6111679</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>01F2A564EA621C119C1E56B9</string>
-			<key>buildPhases</key>
-			<array>
-				<string>17C89D47A744C626B004BBE3</string>
-				<string>186B4F501FAD6D47F45D6208</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FA1164EA38E9E75C54E89837</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests</string>
-			<key>productName</key>
-			<string>Pods-LGFlapJackStackView_Tests</string>
-			<key>productReference</key>
-			<string>3E137A1BD7CA11D8469E1C67</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>446C0B04041C8E845FFA4858</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45B0D030A454EB4D9EDDBA13</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView</string>
-			<key>target</key>
-			<string>F8F092C6276D57E20F27ABE4</string>
-			<key>targetProxy</key>
-			<string>98139362942F9C9BC11D6E4B</string>
-		</dict>
-		<key>48984D9A6DDA0866ACB97C75</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>48AC7965C6092C24E4B37DE1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E233E4F76BC1702BEE6C2FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F0F77306EDFD066CFD0C94B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51955F8D44171F46D7F0E939</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B50D755F87D6F28688D0D5A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>53221D7938CD389F844FA351</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56869D0587CE02AC1B214119</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CD0018DF9663F8EFDC280D3C</string>
-				<string>012E2F1BB55F182B70A884B5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5A5F48360C8A982CCAA8CC0E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4F0F77306EDFD066CFD0C94B</string>
-				<string>39C1A6FE65FC1DCADD4E72BA</string>
-				<string>446C0B04041C8E845FFA4858</string>
-				<string>19DC093D10663DCF8B86883A</string>
-				<string>2AA009047A258A208A627104</string>
-				<string>0AB4244B2D85AFD2CC9814FF</string>
-				<string>943043345424A0251196A472</string>
-				<string>5C55AAA1A827FC9C2F6F855C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C55AAA1A827FC9C2F6F855C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F83962CADC78D2B2A450411</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>39C1A6FE65FC1DCADD4E72BA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView/Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>60D22F9869D4688D29030693</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E233E4F76BC1702BEE6C2FA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>60D2ECA8730FF1CCB91B8083</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B4F1A0EE86E45C33E5C2643E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6316CA38AD1C91DCDA5D2202</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C4E00F00044181FE15F3F02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66D35FAF2972DD0FF5D29ED0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>6FB2AB0712D4A2B23FA9C6BC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7118D7203DB2517AC5D177AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>263F3C8A9947177CC348E997</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>717BCD2E169EAE031E38D8C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733A6510DB7A13410FF01843</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C51C0502CAA48200A50EBA65</string>
-				<string>365523933D29651FA51EE6D7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7611CFF8D4FAB1F20A94C77F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7FD7DAE5F873E5BE946736F2</string>
-				<string>19431645C2C609D7AFA8A4F1</string>
-				<string>02FB09E8297ED1D18B998DC1</string>
-				<string>E64AD661F55375EB83CC0D19</string>
-				<string>7D7BA6F6F4FFA43D532FB929</string>
-				<string>717BCD2E169EAE031E38D8C1</string>
-				<string>8C790163C812A850FD6E7C2B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-LGFlapJackStackView_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78275A635AD1E153D059C359</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E1DF9E95E29A83BBAE70852B</string>
-				<string>B134DAC2371F45589F850798</string>
-				<string>3C47178D4D768EE0F077B71A</string>
-				<string>F50C0B76B662FE976CCFD11B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7C4E00F00044181FE15F3F02</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>7C8D90222B5A0C40338D621A</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>92F4519D98C782ADE4E5EAA5</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>1FCC8FEF018A13D7DAB7453E</string>
-			<key>productRefGroup</key>
-			<string>2F980E61B2763092145EA50D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>F9EDE7406B86DA38F57A2A5C</string>
-				<string>BD8441E8F522020563E66BF3</string>
-				<string>F8F092C6276D57E20F27ABE4</string>
-				<string>422E3F7D0148B1D5C6111679</string>
-				<string>20A85850D7CC5F3B5D8C6BF0</string>
-			</array>
-		</dict>
-		<key>7D652AAD0A70E8357DF0093E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>94A92714F386A9B843358388</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D7BA6F6F4FFA43D532FB929</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7FD7DAE5F873E5BE946736F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A25B910156B843FA7216C55</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LGFlapJackStackView.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8C790163C812A850FD6E7C2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9021A1C3D54810A32F573178</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LGFlapJackStackView</string>
-			<key>target</key>
-			<string>F9EDE7406B86DA38F57A2A5C</string>
-			<key>targetProxy</key>
-			<string>23E61220093BB5E5F0C5C8A0</string>
-		</dict>
-		<key>92F4519D98C782ADE4E5EAA5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>419C74C135903C4DDF34955F</string>
-				<string>1FD7427A624AD603E8FE7B36</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>943043345424A0251196A472</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94A92714F386A9B843358388</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>LGFlapJackStackView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/LGFlapJackStackView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>974BE3D34744D62C1503A2C6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>97E6AD381E47AB76A6DEFC40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>97E6AD381E47AB76A6DEFC40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C4E00F00044181FE15F3F02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98139362942F9C9BC11D6E4B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7C8D90222B5A0C40338D621A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F8F092C6276D57E20F27ABE4</string>
-			<key>remoteInfo</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView</string>
-		</dict>
-		<key>990A141CA2ACB3162EB149D1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>39C1A6FE65FC1DCADD4E72BA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView/Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9DB486CA2D49811559D640C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>446C0B04041C8E845FFA4858</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A1BFAF7547466F4637169676</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F183151ED18941B662BB0C11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A52DB928DFD2CD10D29DDE24</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LGFlapJackStackView</string>
-			<key>target</key>
-			<string>F9EDE7406B86DA38F57A2A5C</string>
-			<key>targetProxy</key>
-			<string>18D7B75EDE9EF87D60E78D1C</string>
-		</dict>
-		<key>A5469C52D9855C7B81E9CE2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A6E863C82051451F40120D7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>02FB09E8297ED1D18B998DC1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABB442C0279ADBFF00539286</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC780377177ED5F12269D105</key>
-		<dict>
-			<key>fileRef</key>
-			<string>263F3C8A9947177CC348E997</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B134DAC2371F45589F850798</key>
-		<dict>
-			<key>fileRef</key>
-			<string>94A92714F386A9B843358388</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4F1A0EE86E45C33E5C2643E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B50D755F87D6F28688D0D5A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LGFlapJack.h</string>
-			<key>path</key>
-			<string>Pod/Classes/LGFlapJack.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BAB235CE95E2AE0F886BE49F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C7D38B3A8FB8AB624E8D53E3</string>
-				<string>AC780377177ED5F12269D105</string>
-				<string>DE656BE5F75793E20CDE9FE5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BD8441E8F522020563E66BF3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>733A6510DB7A13410FF01843</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E545EF52CDD8ED2322FBEDE5</string>
-				<string>41780AA9354C4316A5742FF6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>45B0D030A454EB4D9EDDBA13</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Example</string>
-			<key>productName</key>
-			<string>Pods-LGFlapJackStackView_Example</string>
-			<key>productReference</key>
-			<string>07D4FB069A384F521EA87147</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C1C993B4A43E050D3CA0CFDE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30AD5699DE17A3FC3F19398F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C37C68B1AD24AF12C14980E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C4E00F00044181FE15F3F02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C51C0502CAA48200A50EBA65</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>717BCD2E169EAE031E38D8C1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C7D38B3A8FB8AB624E8D53E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B50D755F87D6F28688D0D5A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CD0018DF9663F8EFDC280D3C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0AB4244B2D85AFD2CC9814FF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D0A9F1B957CE3ADB07EF0668</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E4DA97641455EAD084064171</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D940B97AADD422BCD1CD3C3A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7C8D90222B5A0C40338D621A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>20A85850D7CC5F3B5D8C6BF0</string>
-			<key>remoteInfo</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView</string>
-		</dict>
-		<key>DB1F06BD963CF38E8B08DBA9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C4E00F00044181FE15F3F02</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE656BE5F75793E20CDE9FE5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F183151ED18941B662BB0C11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E1DF9E95E29A83BBAE70852B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30AD5699DE17A3FC3F19398F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E4DA97641455EAD084064171</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C4E00F00044181FE15F3F02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E545EF52CDD8ED2322FBEDE5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A6E863C82051451F40120D7F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E64AD661F55375EB83CC0D19</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LGFlapJackStackView_Example-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F15B713CCAB6D7372F4443C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DB1F06BD963CF38E8B08DBA9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F183151ED18941B662BB0C11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LGFlapJackTableViewCell.h</string>
-			<key>path</key>
-			<string>Pod/Classes/LGFlapJackTableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F50C0B76B662FE976CCFD11B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>943043345424A0251196A472</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8F092C6276D57E20F27ABE4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>19C6A062C6EFCA162799A4B5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>39FB4F84B82FB7A69699C0C9</string>
-				<string>D0A9F1B957CE3ADB07EF0668</string>
-				<string>FC4BB59EF794A82C53415A67</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A52DB928DFD2CD10D29DDE24</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView</string>
-			<key>productName</key>
-			<string>Pods-LGFlapJackStackView_Example-LGFlapJackStackView</string>
-			<key>productReference</key>
-			<string>48984D9A6DDA0866ACB97C75</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F9EDE7406B86DA38F57A2A5C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3595BED0C270E5D5E05A4AB5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>01287C914DDA47E6832E3453</string>
-				<string>A5469C52D9855C7B81E9CE2D</string>
-				<string>6FB2AB0712D4A2B23FA9C6BC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LGFlapJackStackView</string>
-			<key>productName</key>
-			<string>LGFlapJackStackView</string>
-			<key>productReference</key>
-			<string>8A25B910156B843FA7216C55</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>FA1164EA38E9E75C54E89837</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView</string>
-			<key>target</key>
-			<string>20A85850D7CC5F3B5D8C6BF0</string>
-			<key>targetProxy</key>
-			<string>D940B97AADD422BCD1CD3C3A</string>
-		</dict>
-		<key>FBFA4070A50473D9DF525439</key>
-		<dict>
-			<key>fileRef</key>
-			<string>48AC7965C6092C24E4B37DE1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC4BB59EF794A82C53415A67</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>51955F8D44171F46D7F0E939</string>
-				<string>7118D7203DB2517AC5D177AA</string>
-				<string>A1BFAF7547466F4637169676</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FEE9C42D515E3D6E94E8C633</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>7C8D90222B5A0C40338D621A</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADF76CB7B38E4187E39C804 /* LGFlapJack.m in Sources */ = {isa = PBXBuildFile; fileRef = A706C442D9BD42A120802D1E /* LGFlapJack.m */; };
+		2165FBC4F786FA212DA9C154 /* LGFlapJackStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */; };
+		28DA7F992A6CDA37191D35CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
+		3CB325D6860D4F0FD5E3DBD8 /* LGFlapJackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */; };
+		464353A542885B8DDCCA680F /* LGFlapJackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */; };
+		471D89A7720F9897FC1F1577 /* LGFlapJack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */; };
+		5254A7387E76877FED27F0C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
+		5AF76C9675A2E6F1F3A7D43E /* LGFlapJackStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */; };
+		79FA233DCE1C4EC2382FDC21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
+		8CA4DCF72A8A134D63EAD96B /* LGFlapJackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */; };
+		8EE2B929347295ABC330D71A /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B005C60E80BA49931B9E4F6 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */; };
+		94B078491C722A38501D7340 /* LGFlapJack.m in Sources */ = {isa = PBXBuildFile; fileRef = A706C442D9BD42A120802D1E /* LGFlapJack.m */; };
+		98442CCEA8FE40CF29DAD309 /* LGFlapJackStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3655D83189497F1B78618360 /* LGFlapJackStackView.m */; };
+		A2BC14858650A8B24EAF12FA /* Pods-LGFlapJackStackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B81ED5A9D640244BF5F74 /* Pods-LGFlapJackStackView_Example-dummy.m */; };
+		DE13C72DA191B1A5E2B4EF0D /* LGFlapJackStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3655D83189497F1B78618360 /* LGFlapJackStackView.m */; };
+		DE9AE8211D93E40F4875182B /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 277F4772A5722D5237E33641 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */; };
+		E0567400E1274F145217ED2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
+		E57FFDA4F87F6F3D083CD654 /* Pods-LGFlapJackStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7054898BB21F5D2317171D /* Pods-LGFlapJackStackView_Tests-dummy.m */; };
+		EEB808388C7403654AD4160F /* LGFlapJack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */; };
+		F745527958DF097232B0AF81 /* LGFlapJackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B0F6B2A8CDC753129443A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D765BB41D4401FFF5DB9343;
+			remoteInfo = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
+		};
+		208B7EC6731FFAAC5B116F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4489FC66121FD0A6A50471;
+			remoteInfo = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+		};
+		3FF68112FCF34152FF26F39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93075B2A2A2FFE813CC79020;
+			remoteInfo = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
+		};
+		4826281DEA6F20E83A80D888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97581E67F7AFE4242CBE6D99;
+			remoteInfo = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B005C60E80BA49931B9E4F6 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m"; sourceTree = "<group>"; };
+		277F4772A5722D5237E33641 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m"; sourceTree = "<group>"; };
+		28A315CFD8A4962A44B82CD1 /* libPods-LGFlapJackStackView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJackTableViewCell.m; sourceTree = "<group>"; };
+		329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJackStackView.h; sourceTree = "<group>"; };
+		3655D83189497F1B78618360 /* LGFlapJackStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJackStackView.m; sourceTree = "<group>"; };
+		43776069233D16231BD044D6 /* Pods-LGFlapJackStackView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGFlapJackStackView_Example-resources.sh"; sourceTree = "<group>"; };
+		456E02C38402EF804E852FB5 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig"; sourceTree = "<group>"; };
+		48710F025C96D45444B8B505 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5209E0C7CAF843A0CF51DC95 /* Pods-LGFlapJackStackView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Example-environment.h"; sourceTree = "<group>"; };
+		55D306B088765BFE534B9316 /* LGFlapJackStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFlapJackStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CAEEF0ED50375FC277DFD2 /* Pods-LGFlapJackStackView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Tests-environment.h"; sourceTree = "<group>"; };
+		5F4A6DDEDCD686BBBEC8EE70 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		603D8C07E687DE4C0B9621C1 /* libPods-LGFlapJackStackView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E4BF1222688D9A60F96C96 /* Pods-LGFlapJackStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGFlapJackStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80E529E044D48D20846871E9 /* Pods-LGFlapJackStackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGFlapJackStackView_Tests-resources.sh"; sourceTree = "<group>"; };
+		817CE94D57F426B18BB5B029 /* Pods-LGFlapJackStackView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGFlapJackStackView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B75A6CF265C883AC4587D19 /* Pods-LGFlapJackStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGFlapJackStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F0B96FABEE5F001BD3F89DF /* Pods-LGFlapJackStackView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGFlapJackStackView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		948B81ED5A9D640244BF5F74 /* Pods-LGFlapJackStackView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Example-dummy.m"; sourceTree = "<group>"; };
+		9E3684F7027EF7164A1F7873 /* Pods-LGFlapJackStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9E55B1EDA3D10DED4F52A2A9 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch"; sourceTree = "<group>"; };
+		A2CB69BAB68991070D2502AE /* Pods-LGFlapJackStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A50411A8EA0700F99E3733FF /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A706C442D9BD42A120802D1E /* LGFlapJack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJack.m; sourceTree = "<group>"; };
+		ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig"; sourceTree = "<group>"; };
+		B007C0E3150CBE92C1EC04B4 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B28B1DD7659CF73480F6BB6F /* Pods-LGFlapJackStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C7422B48694A5801A9284919 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch"; sourceTree = "<group>"; };
+		CA83A332F15387F17A2713BB /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig"; sourceTree = "<group>"; };
+		DC7054898BB21F5D2317171D /* Pods-LGFlapJackStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E2F3441A3AB444D242788DAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig"; sourceTree = "<group>"; };
+		EE4E526DFFD133C631F6669C /* LGFlapJackStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFlapJackStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJackTableViewCell.h; sourceTree = "<group>"; };
+		FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJack.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C47F2C41F8C331DB447F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5254A7387E76877FED27F0C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B34B4FE6A746F28A73A1D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DA7F992A6CDA37191D35CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FD105788B1C219989C9D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0567400E1274F145217ED2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3670B4B2C7A28814E7C185E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E151FABE75C142B36572994F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FA233DCE1C4EC2382FDC21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1F8671D1BF4178B5FEA293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AF6BB0FD285FB0C266546E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3441A3AB444D242788DAF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		423CF16B04E044413B4DF4CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DFF693D5D87AC69E66FA7608 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		44F860CB1851C89217A6F454 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F4EC0BE73E4DDFB7D5D112 /* Pods-LGFlapJackStackView_Example */,
+				5FC41C859A84CE5F3388F6D5 /* Pods-LGFlapJackStackView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FC41C859A84CE5F3388F6D5 /* Pods-LGFlapJackStackView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79E4BF1222688D9A60F96C96 /* Pods-LGFlapJackStackView_Tests-acknowledgements.markdown */,
+				8B75A6CF265C883AC4587D19 /* Pods-LGFlapJackStackView_Tests-acknowledgements.plist */,
+				DC7054898BB21F5D2317171D /* Pods-LGFlapJackStackView_Tests-dummy.m */,
+				58CAEEF0ED50375FC277DFD2 /* Pods-LGFlapJackStackView_Tests-environment.h */,
+				80E529E044D48D20846871E9 /* Pods-LGFlapJackStackView_Tests-resources.sh */,
+				B007C0E3150CBE92C1EC04B4 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */,
+				A2CB69BAB68991070D2502AE /* Pods-LGFlapJackStackView_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGFlapJackStackView_Tests";
+			path = "Target Support Files/Pods-LGFlapJackStackView_Tests";
+			sourceTree = "<group>";
+		};
+		6DC12F6648BEB5D1C8C11FD8 = {
+			isa = PBXGroup;
+			children = (
+				48710F025C96D45444B8B505 /* Podfile */,
+				84A26D237DF240550F25CF02 /* Development Pods */,
+				CFDADAC39924242C85A92B54 /* Frameworks */,
+				972CF77E9FD02B3C8CECB6B1 /* Products */,
+				44F860CB1851C89217A6F454 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84A26D237DF240550F25CF02 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B65468FFA407CC11E49ABD4C /* LGFlapJackStackView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		972CF77E9FD02B3C8CECB6B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D306B088765BFE534B9316 /* LGFlapJackStackView.bundle */,
+				EE4E526DFFD133C631F6669C /* LGFlapJackStackView.bundle */,
+				28A315CFD8A4962A44B82CD1 /* libPods-LGFlapJackStackView_Example.a */,
+				5F4A6DDEDCD686BBBEC8EE70 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */,
+				603D8C07E687DE4C0B9621C1 /* libPods-LGFlapJackStackView_Tests.a */,
+				A50411A8EA0700F99E3733FF /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F4EC0BE73E4DDFB7D5D112 /* Pods-LGFlapJackStackView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				817CE94D57F426B18BB5B029 /* Pods-LGFlapJackStackView_Example-acknowledgements.markdown */,
+				8F0B96FABEE5F001BD3F89DF /* Pods-LGFlapJackStackView_Example-acknowledgements.plist */,
+				948B81ED5A9D640244BF5F74 /* Pods-LGFlapJackStackView_Example-dummy.m */,
+				5209E0C7CAF843A0CF51DC95 /* Pods-LGFlapJackStackView_Example-environment.h */,
+				43776069233D16231BD044D6 /* Pods-LGFlapJackStackView_Example-resources.sh */,
+				B28B1DD7659CF73480F6BB6F /* Pods-LGFlapJackStackView_Example.debug.xcconfig */,
+				9E3684F7027EF7164A1F7873 /* Pods-LGFlapJackStackView_Example.release.xcconfig */,
+			);
+			name = "Pods-LGFlapJackStackView_Example";
+			path = "Target Support Files/Pods-LGFlapJackStackView_Example";
+			sourceTree = "<group>";
+		};
+		B65468FFA407CC11E49ABD4C /* LGFlapJackStackView */ = {
+			isa = PBXGroup;
+			children = (
+				423CF16B04E044413B4DF4CE /* Pod */,
+				F0CF3755443788549450624E /* Support Files */,
+			);
+			name = LGFlapJackStackView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CFDADAC39924242C85A92B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34AF6BB0FD285FB0C266546E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF693D5D87AC69E66FA7608 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */,
+				A706C442D9BD42A120802D1E /* LGFlapJack.m */,
+				329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */,
+				3655D83189497F1B78618360 /* LGFlapJackStackView.m */,
+				F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */,
+				30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0CF3755443788549450624E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA83A332F15387F17A2713BB /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig */,
+				ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */,
+				277F4772A5722D5237E33641 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */,
+				C7422B48694A5801A9284919 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch */,
+				456E02C38402EF804E852FB5 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig */,
+				E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */,
+				1B005C60E80BA49931B9E4F6 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */,
+				9E55B1EDA3D10DED4F52A2A9 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		98453427D3B11791009F1855 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471D89A7720F9897FC1F1577 /* LGFlapJack.h in Headers */,
+				5AF76C9675A2E6F1F3A7D43E /* LGFlapJackStackView.h in Headers */,
+				F745527958DF097232B0AF81 /* LGFlapJackTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C80A1DF5709106A2C59192 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB808388C7403654AD4160F /* LGFlapJack.h in Headers */,
+				2165FBC4F786FA212DA9C154 /* LGFlapJackStackView.h in Headers */,
+				3CB325D6860D4F0FD5E3DBD8 /* LGFlapJackTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D765BB41D4401FFF5DB9343 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED863BF3974ADBF8080E1AA7 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView" */;
+			buildPhases = (
+				6607202C46BBC7736E748EC9 /* Sources */,
+				84FD105788B1C219989C9D07 /* Frameworks */,
+				98453427D3B11791009F1855 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED806762E82D19907AC0F95E /* PBXTargetDependency */,
+			);
+			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
+			productName = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
+			productReference = 5F4A6DDEDCD686BBBEC8EE70 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0E3E1EA082DB8D887CED5D88 /* Pods-LGFlapJackStackView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCD2AE0E3C0A6A17F787CCC /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example" */;
+			buildPhases = (
+				E7AF2C420450CF4C38A77786 /* Sources */,
+				E151FABE75C142B36572994F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D710F5306F66CC6BDD953D3C /* PBXTargetDependency */,
+			);
+			name = "Pods-LGFlapJackStackView_Example";
+			productName = "Pods-LGFlapJackStackView_Example";
+			productReference = 28A315CFD8A4962A44B82CD1 /* libPods-LGFlapJackStackView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2E4489FC66121FD0A6A50471 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5BB69153EC9842202051E3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView" */;
+			buildPhases = (
+				3F2647357352B2EC82F2807A /* Sources */,
+				03C47F2C41F8C331DB447F62 /* Frameworks */,
+				E9C80A1DF5709106A2C59192 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD21A03A1C0644423FF5135 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+			productName = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+			productReference = A50411A8EA0700F99E3733FF /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6392BCAE3061B85916B53612 /* Pods-LGFlapJackStackView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43351D2894B691DECC4F6EF3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests" */;
+			buildPhases = (
+				4F343469B3A6BD4D6D71EB86 /* Sources */,
+				3B34B4FE6A746F28A73A1D75 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6645D452F5837ECB10E483E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGFlapJackStackView_Tests";
+			productName = "Pods-LGFlapJackStackView_Tests";
+			productReference = 603D8C07E687DE4C0B9621C1 /* libPods-LGFlapJackStackView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93075B2A2A2FFE813CC79020 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB85ED6A3C872203CCE54D78 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView" */;
+			buildPhases = (
+				247C0EF449FD9B776776E5C1 /* Sources */,
+				C3670B4B2C7A28814E7C185E /* Frameworks */,
+				8BE730F32FBED26C91D9F2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
+			productName = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
+			productReference = EE4E526DFFD133C631F6669C /* LGFlapJackStackView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		97581E67F7AFE4242CBE6D99 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A85A17BF8F337B0AD94FCB /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView" */;
+			buildPhases = (
+				AA1F57DACB5A347470FBEB76 /* Sources */,
+				FB1F8671D1BF4178B5FEA293 /* Frameworks */,
+				4B834A37542AE8E4EBA9DDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
+			productName = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
+			productReference = 55D306B088765BFE534B9316 /* LGFlapJackStackView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71FAAD90DF8F5C2E4BB97EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = CF218AA409D93880A902425F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DC12F6648BEB5D1C8C11FD8;
+			productRefGroup = 972CF77E9FD02B3C8CECB6B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E3E1EA082DB8D887CED5D88 /* Pods-LGFlapJackStackView_Example */,
+				0D765BB41D4401FFF5DB9343 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */,
+				93075B2A2A2FFE813CC79020 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */,
+				6392BCAE3061B85916B53612 /* Pods-LGFlapJackStackView_Tests */,
+				2E4489FC66121FD0A6A50471 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */,
+				97581E67F7AFE4242CBE6D99 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B834A37542AE8E4EBA9DDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE730F32FBED26C91D9F2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247C0EF449FD9B776776E5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2647357352B2EC82F2807A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADF76CB7B38E4187E39C804 /* LGFlapJack.m in Sources */,
+				DE13C72DA191B1A5E2B4EF0D /* LGFlapJackStackView.m in Sources */,
+				464353A542885B8DDCCA680F /* LGFlapJackTableViewCell.m in Sources */,
+				8EE2B929347295ABC330D71A /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F343469B3A6BD4D6D71EB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57FFDA4F87F6F3D083CD654 /* Pods-LGFlapJackStackView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6607202C46BBC7736E748EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B078491C722A38501D7340 /* LGFlapJack.m in Sources */,
+				98442CCEA8FE40CF29DAD309 /* LGFlapJackStackView.m in Sources */,
+				8CA4DCF72A8A134D63EAD96B /* LGFlapJackTableViewCell.m in Sources */,
+				DE9AE8211D93E40F4875182B /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1F57DACB5A347470FBEB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AF2C420450CF4C38A77786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BC14858650A8B24EAF12FA /* Pods-LGFlapJackStackView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DD21A03A1C0644423FF5135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
+			target = 97581E67F7AFE4242CBE6D99 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */;
+			targetProxy = 4826281DEA6F20E83A80D888 /* PBXContainerItemProxy */;
+		};
+		6645D452F5837ECB10E483E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+			target = 2E4489FC66121FD0A6A50471 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */;
+			targetProxy = 208B7EC6731FFAAC5B116F9B /* PBXContainerItemProxy */;
+		};
+		D710F5306F66CC6BDD953D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
+			target = 0D765BB41D4401FFF5DB9343 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */;
+			targetProxy = 02B0F6B2A8CDC753129443A9 /* PBXContainerItemProxy */;
+		};
+		ED806762E82D19907AC0F95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
+			target = 93075B2A2A2FFE813CC79020 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */;
+			targetProxy = 3FF68112FCF34152FF26F39F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000A6074A1101BEE1F16629E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14256049024E482539F7947C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGFlapJackStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4247E10A05A68507A67BCC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3684F7027EF7164A1F7873 /* Pods-LGFlapJackStackView_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		49C1CBFE9896A384DC6289CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGFlapJackStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6480AAE5C2F0EE5F92CCC25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView/Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6BDC14DF78A4A972BB7E99E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		77DA1383CBCDE014E6756E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E015379D8BEE10E839874B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B007C0E3150CBE92C1EC04B4 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3CBBF76D950941857AE2B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGFlapJackStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B312E1BFF3D1EE78F7A397AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CB69BAB68991070D2502AE /* Pods-LGFlapJackStackView_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CC9864F8B1097B9E24D3741F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGFlapJackStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CD8FA75291DC704CB507ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView/Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D3A2CCA0404A75406C24A0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E2A1A1EEE606D97C17D945DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28B1DD7659CF73480F6BB6F /* Pods-LGFlapJackStackView_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43351D2894B691DECC4F6EF3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E015379D8BEE10E839874B /* Debug */,
+				B312E1BFF3D1EE78F7A397AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCD2AE0E3C0A6A17F787CCC /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A1A1EEE606D97C17D945DF /* Debug */,
+				4247E10A05A68507A67BCC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A85A17BF8F337B0AD94FCB /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9864F8B1097B9E24D3741F /* Debug */,
+				14256049024E482539F7947C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5BB69153EC9842202051E3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A2CCA0404A75406C24A0E1 /* Debug */,
+				6BDC14DF78A4A972BB7E99E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF218AA409D93880A902425F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000A6074A1101BEE1F16629E /* Debug */,
+				77DA1383CBCDE014E6756E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB85ED6A3C872203CCE54D78 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CBBF76D950941857AE2B93 /* Debug */,
+				49C1CBFE9896A384DC6289CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED863BF3974ADBF8080E1AA7 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6480AAE5C2F0EE5F92CCC25E /* Debug */,
+				CD8FA75291DC704CB507ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+}

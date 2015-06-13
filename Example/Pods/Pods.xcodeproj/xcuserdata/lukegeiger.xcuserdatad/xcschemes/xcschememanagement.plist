@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LGFlapJackStackView.xcscheme</key>
+		<key>Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -15,6 +15,11 @@
 			<false/>
 		</dict>
 		<key>Pods-LGFlapJackStackView_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>20A85850D7CC5F3B5D8C6BF0</key>
+		<key>0D765BB41D4401FFF5DB9343</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>422E3F7D0148B1D5C6111679</key>
+		<key>0E3E1EA082DB8D887CED5D88</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD8441E8F522020563E66BF3</key>
+		<key>2E4489FC66121FD0A6A50471</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8F092C6276D57E20F27ABE4</key>
+		<key>6392BCAE3061B85916B53612</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F9EDE7406B86DA38F57A2A5C</key>
+		<key>93075B2A2A2FFE813CC79020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97581E67F7AFE4242CBE6D99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
