@@ -99,7 +99,6 @@
     return [categories objectAtIndex:[self getRandomNumberBetween:0 to:(int)categories.count-1]];
 }
 
-
 -(void)exportGraphWasPressed{
     if ([MFMailComposeViewController canSendMail]) {
         
@@ -110,7 +109,7 @@
             [mailViewController setMessageBody:@"If you enjoyed this demo, follow me on twitter! @lukejgeiger" isHTML:NO];
             mailViewController.mailComposeDelegate = self;
             
-            NSData*data = [[self.lgFlapJackStackView graphAsCSVStringWithLeftBarName:@"Blue Team" rightBarName:@"Green Team"]dataUsingEncoding:NSUTF8StringEncoding];
+            NSData*data = [[self.lgFlapJackStackView graphAsCSVStringWithColOne:@"Category" colTwo:@"Blue Team" colThree:@"Green Team"]dataUsingEncoding:NSUTF8StringEncoding];
             
             [mailViewController addAttachmentData:data mimeType:@"text/csv" fileName:[NSString stringWithFormat:@"%@.csv",self.lgFlapJackStackView.name]];
             [self presentViewController:mailViewController animated:YES completion:nil];

@@ -68,7 +68,7 @@
  This function will give the the CSV (Excel Representation) of the graph. (Name,Left Value, Total Value,Percentage)
  @returns the graph in a format compatible with excel spread sheets.
  */
--(NSString*)graphAsCSVStringWithLeftBarName:(NSString*)leftBarName rightBarName:(NSString*)rightBarName;
+-(NSString*)graphAsCSVStringWithColOne:(NSString*)colOne colTwo:(NSString*)colTwo colThree:(NSString*)colThree;
 
 /**
     Reloads the table.

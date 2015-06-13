@@ -160,9 +160,9 @@ static NSString *cellIdentifier = @"CellIdentifier";
     return image;
 }
 
--(NSString*)graphAsCSVStringWithLeftBarName:(NSString *)leftBarName rightBarName:(NSString *)rightBarName{
+-(NSString*)graphAsCSVStringWithColOne:(NSString*)colOne colTwo:(NSString*)colTwo colThree:(NSString*)colThree{
     NSMutableString *csvString = [NSMutableString new];
-    [csvString appendString:[NSString stringWithFormat:@"Category,%@,%@\n",leftBarName,rightBarName]];
+    [csvString appendString:[NSString stringWithFormat:@"%@,%@,%@\n",colOne,colTwo,colThree]];
     for (LGFlapJack*flapJack in _flapJacks) {
         [csvString appendString:[NSString stringWithFormat:@"%@,%@,%@\n",flapJack.inlineString,flapJack.leftBarTotal,flapJack.rightBarTotal]];
     }
