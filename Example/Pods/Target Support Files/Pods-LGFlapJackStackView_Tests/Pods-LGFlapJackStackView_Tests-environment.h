@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_LGFlapJackStackView
 #define COCOAPODS_VERSION_MAJOR_LGFlapJackStackView 1
 #define COCOAPODS_VERSION_MINOR_LGFlapJackStackView 0
-#define COCOAPODS_VERSION_PATCH_LGFlapJackStackView 1
+#define COCOAPODS_VERSION_PATCH_LGFlapJackStackView 2
 

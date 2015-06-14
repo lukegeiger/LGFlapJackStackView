@@ -7,385 +7,385 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ADF76CB7B38E4187E39C804 /* LGFlapJack.m in Sources */ = {isa = PBXBuildFile; fileRef = A706C442D9BD42A120802D1E /* LGFlapJack.m */; };
-		2165FBC4F786FA212DA9C154 /* LGFlapJackStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */; };
-		28DA7F992A6CDA37191D35CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
-		3CB325D6860D4F0FD5E3DBD8 /* LGFlapJackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */; };
-		464353A542885B8DDCCA680F /* LGFlapJackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */; };
-		471D89A7720F9897FC1F1577 /* LGFlapJack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */; };
-		5254A7387E76877FED27F0C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
-		5AF76C9675A2E6F1F3A7D43E /* LGFlapJackStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */; };
-		79FA233DCE1C4EC2382FDC21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
-		8CA4DCF72A8A134D63EAD96B /* LGFlapJackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */; };
-		8EE2B929347295ABC330D71A /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B005C60E80BA49931B9E4F6 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */; };
-		94B078491C722A38501D7340 /* LGFlapJack.m in Sources */ = {isa = PBXBuildFile; fileRef = A706C442D9BD42A120802D1E /* LGFlapJack.m */; };
-		98442CCEA8FE40CF29DAD309 /* LGFlapJackStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3655D83189497F1B78618360 /* LGFlapJackStackView.m */; };
-		A2BC14858650A8B24EAF12FA /* Pods-LGFlapJackStackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B81ED5A9D640244BF5F74 /* Pods-LGFlapJackStackView_Example-dummy.m */; };
-		DE13C72DA191B1A5E2B4EF0D /* LGFlapJackStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3655D83189497F1B78618360 /* LGFlapJackStackView.m */; };
-		DE9AE8211D93E40F4875182B /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 277F4772A5722D5237E33641 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */; };
-		E0567400E1274F145217ED2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3441A3AB444D242788DAF /* Foundation.framework */; };
-		E57FFDA4F87F6F3D083CD654 /* Pods-LGFlapJackStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7054898BB21F5D2317171D /* Pods-LGFlapJackStackView_Tests-dummy.m */; };
-		EEB808388C7403654AD4160F /* LGFlapJack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */; };
-		F745527958DF097232B0AF81 /* LGFlapJackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */; };
+		138EFA1EA0321F458922C9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27F4224822586D69CD8AD75 /* Foundation.framework */; };
+		28C3E2BEDF64436281296673 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4B8DC6744098750789B604 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */; };
+		28C4DB8E1642A3D2463C575C /* Pods-LGFlapJackStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4348F31AB02728369E95FADA /* Pods-LGFlapJackStackView_Tests-dummy.m */; };
+		2B2AD7A3E8AAB0BFEEE7064A /* LGFlapJackStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AFE78079FD1F2F2A025786 /* LGFlapJackStackView.m */; };
+		2C079DDE9023FC7370764593 /* LGFlapJackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B44C8816A55F0B886CC49923 /* LGFlapJackTableViewCell.h */; };
+		3DD53D0145C54A335A4387E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27F4224822586D69CD8AD75 /* Foundation.framework */; };
+		43B0013DBEB72DB7C4487496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27F4224822586D69CD8AD75 /* Foundation.framework */; };
+		4690465C181AF3982725FF10 /* LGFlapJackStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AFE78079FD1F2F2A025786 /* LGFlapJackStackView.m */; };
+		6E6B8E1A2520D1A987918ACA /* LGFlapJackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78362F0884555B29A19008FD /* LGFlapJackTableViewCell.m */; };
+		70CF20EEF9D198EA9F41C6CF /* Pods-LGFlapJackStackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F27A36EF0BC061C60AC213B /* Pods-LGFlapJackStackView_Example-dummy.m */; };
+		89931731ED41A6FC8783763F /* LGFlapJackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B44C8816A55F0B886CC49923 /* LGFlapJackTableViewCell.h */; };
+		8B86375C735AF2C98C453F5F /* LGFlapJackStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7E99F32DA6E0272475A0C6 /* LGFlapJackStackView.h */; };
+		8BE5E04A1608F623F9C25E35 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F02FF665E6FE8546B175F /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */; };
+		C738382397C62EC032F7023C /* LGFlapJack.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6B87DC00DE9BDA4F47B2F8 /* LGFlapJack.h */; };
+		D030DC9231D07CA64467742B /* LGFlapJack.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0E538376FA51FBCA0C05A /* LGFlapJack.m */; };
+		DE7BF7DD01781698031569F8 /* LGFlapJackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78362F0884555B29A19008FD /* LGFlapJackTableViewCell.m */; };
+		E59809EB76378F0C5A4DE19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27F4224822586D69CD8AD75 /* Foundation.framework */; };
+		F5C517A2F8730505E9CBA675 /* LGFlapJack.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6B87DC00DE9BDA4F47B2F8 /* LGFlapJack.h */; };
+		F82AD44F51076BE08DEA9D3D /* LGFlapJack.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0E538376FA51FBCA0C05A /* LGFlapJack.m */; };
+		FE8AC6A5FC3411296E59C9E2 /* LGFlapJackStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7E99F32DA6E0272475A0C6 /* LGFlapJackStackView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02B0F6B2A8CDC753129443A9 /* PBXContainerItemProxy */ = {
+		0BA396B42A98CA42F3EE880C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			containerPortal = 127082A122BE204298944598 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D765BB41D4401FFF5DB9343;
+			remoteGlobalIDString = 4C9D639EF29B955DB76C718C;
 			remoteInfo = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
 		};
-		208B7EC6731FFAAC5B116F9B /* PBXContainerItemProxy */ = {
+		2028AB9C725297B21848CCAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			containerPortal = 127082A122BE204298944598 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E4489FC66121FD0A6A50471;
-			remoteInfo = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+			remoteGlobalIDString = 95E60E3BD14B383DFC79D5FC;
+			remoteInfo = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
 		};
-		3FF68112FCF34152FF26F39F /* PBXContainerItemProxy */ = {
+		5718298C7E3A554F7E4DD960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			containerPortal = 127082A122BE204298944598 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 93075B2A2A2FFE813CC79020;
+			remoteGlobalIDString = 90389463303FC97DA70B154F;
 			remoteInfo = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
 		};
-		4826281DEA6F20E83A80D888 /* PBXContainerItemProxy */ = {
+		E6B94B3C135D00F1F0CE5E03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+			containerPortal = 127082A122BE204298944598 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97581E67F7AFE4242CBE6D99;
-			remoteInfo = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
+			remoteGlobalIDString = 788B899CB686AAE221081DD2;
+			remoteInfo = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B005C60E80BA49931B9E4F6 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m"; sourceTree = "<group>"; };
-		277F4772A5722D5237E33641 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m"; sourceTree = "<group>"; };
-		28A315CFD8A4962A44B82CD1 /* libPods-LGFlapJackStackView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJackTableViewCell.m; sourceTree = "<group>"; };
-		329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJackStackView.h; sourceTree = "<group>"; };
-		3655D83189497F1B78618360 /* LGFlapJackStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJackStackView.m; sourceTree = "<group>"; };
-		43776069233D16231BD044D6 /* Pods-LGFlapJackStackView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGFlapJackStackView_Example-resources.sh"; sourceTree = "<group>"; };
-		456E02C38402EF804E852FB5 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig"; sourceTree = "<group>"; };
-		48710F025C96D45444B8B505 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5209E0C7CAF843A0CF51DC95 /* Pods-LGFlapJackStackView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Example-environment.h"; sourceTree = "<group>"; };
-		55D306B088765BFE534B9316 /* LGFlapJackStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFlapJackStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CAEEF0ED50375FC277DFD2 /* Pods-LGFlapJackStackView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Tests-environment.h"; sourceTree = "<group>"; };
-		5F4A6DDEDCD686BBBEC8EE70 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		603D8C07E687DE4C0B9621C1 /* libPods-LGFlapJackStackView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79E4BF1222688D9A60F96C96 /* Pods-LGFlapJackStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGFlapJackStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		80E529E044D48D20846871E9 /* Pods-LGFlapJackStackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGFlapJackStackView_Tests-resources.sh"; sourceTree = "<group>"; };
-		817CE94D57F426B18BB5B029 /* Pods-LGFlapJackStackView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGFlapJackStackView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B75A6CF265C883AC4587D19 /* Pods-LGFlapJackStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGFlapJackStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F0B96FABEE5F001BD3F89DF /* Pods-LGFlapJackStackView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGFlapJackStackView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		948B81ED5A9D640244BF5F74 /* Pods-LGFlapJackStackView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Example-dummy.m"; sourceTree = "<group>"; };
-		9E3684F7027EF7164A1F7873 /* Pods-LGFlapJackStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9E55B1EDA3D10DED4F52A2A9 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch"; sourceTree = "<group>"; };
-		A2CB69BAB68991070D2502AE /* Pods-LGFlapJackStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A50411A8EA0700F99E3733FF /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A706C442D9BD42A120802D1E /* LGFlapJack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJack.m; sourceTree = "<group>"; };
-		ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig"; sourceTree = "<group>"; };
-		B007C0E3150CBE92C1EC04B4 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B28B1DD7659CF73480F6BB6F /* Pods-LGFlapJackStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C7422B48694A5801A9284919 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch"; sourceTree = "<group>"; };
-		CA83A332F15387F17A2713BB /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig"; sourceTree = "<group>"; };
-		DC7054898BB21F5D2317171D /* Pods-LGFlapJackStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E2F3441A3AB444D242788DAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig"; sourceTree = "<group>"; };
-		EE4E526DFFD133C631F6669C /* LGFlapJackStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFlapJackStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJackTableViewCell.h; sourceTree = "<group>"; };
-		FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJack.h; sourceTree = "<group>"; };
+		0D6B87DC00DE9BDA4F47B2F8 /* LGFlapJack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJack.h; sourceTree = "<group>"; };
+		100F2DDF5041ECDDD84A7911 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig"; sourceTree = "<group>"; };
+		150A7C5D2AF696B03F6F96D0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1805AB2DCBFB9CD4C6BF9EC0 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch"; sourceTree = "<group>"; };
+		1F6209CAF2A4B86DED36BB56 /* Pods-LGFlapJackStackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGFlapJackStackView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2D982D1BE82C85384785D914 /* LGFlapJackStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFlapJackStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF16CEC45D25E6BEA8EAC63 /* Pods-LGFlapJackStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		370C94251961FDC2A5130083 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4348F31AB02728369E95FADA /* Pods-LGFlapJackStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5A46D28AB3C2A8D826C3416E /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig"; sourceTree = "<group>"; };
+		5F27A36EF0BC061C60AC213B /* Pods-LGFlapJackStackView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Example-dummy.m"; sourceTree = "<group>"; };
+		5F46FACD486B6A0708BBA8D6 /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEB8112AAE703BC92F37353 /* libPods-LGFlapJackStackView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7E99F32DA6E0272475A0C6 /* LGFlapJackStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJackStackView.h; sourceTree = "<group>"; };
+		6F514CEA44122EF1A14A2A27 /* Pods-LGFlapJackStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73A2FCDDBCF2CEB639B4527A /* libPods-LGFlapJackStackView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGFlapJackStackView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747080E1E2B7C1F7C372DC50 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig"; sourceTree = "<group>"; };
+		78362F0884555B29A19008FD /* LGFlapJackTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJackTableViewCell.m; sourceTree = "<group>"; };
+		8433F7ABF6F804591C8CCC85 /* Pods-LGFlapJackStackView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGFlapJackStackView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		876F02FF665E6FE8546B175F /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m"; sourceTree = "<group>"; };
+		87A88FE869A8A0B20A92B835 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig"; sourceTree = "<group>"; };
+		8A23D0D5442E4561128D4060 /* Pods-LGFlapJackStackView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Example-environment.h"; sourceTree = "<group>"; };
+		90B244E18AC455B83A6A531D /* Pods-LGFlapJackStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		96881C90F0446E36F40BEADB /* Pods-LGFlapJackStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGFlapJackStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B44C8816A55F0B886CC49923 /* LGFlapJackTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGFlapJackTableViewCell.h; sourceTree = "<group>"; };
+		B9827229B8143A6D54DA1C40 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGFlapJackStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6E90AB664E5AB65A0949F7 /* Pods-LGFlapJackStackView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGFlapJackStackView_Example-resources.sh"; sourceTree = "<group>"; };
+		BD062ED00370D6465D578016 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch"; sourceTree = "<group>"; };
+		C27F4224822586D69CD8AD75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB6373A628568CC25E1EE2B7 /* Pods-LGFlapJackStackView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGFlapJackStackView_Tests-environment.h"; sourceTree = "<group>"; };
+		D5C0E538376FA51FBCA0C05A /* LGFlapJack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJack.m; sourceTree = "<group>"; };
+		EC4B8DC6744098750789B604 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m"; path = "../Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m"; sourceTree = "<group>"; };
+		EE109B29263451ABAFF17DFD /* Pods-LGFlapJackStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGFlapJackStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7265DB6CD0F6FD5713F4B97 /* Pods-LGFlapJackStackView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGFlapJackStackView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7AFE78079FD1F2F2A025786 /* LGFlapJackStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGFlapJackStackView.m; sourceTree = "<group>"; };
+		FE569178FC73287BA73A0986 /* LGFlapJackStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFlapJackStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03C47F2C41F8C331DB447F62 /* Frameworks */ = {
+		0356D44EE940CC2444B81CC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5254A7387E76877FED27F0C0 /* Foundation.framework in Frameworks */,
+				43B0013DBEB72DB7C4487496 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B34B4FE6A746F28A73A1D75 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28DA7F992A6CDA37191D35CF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FD105788B1C219989C9D07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0567400E1274F145217ED2D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3670B4B2C7A28814E7C185E /* Frameworks */ = {
+		093A66CC74CF56C8F4BAF690 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E151FABE75C142B36572994F /* Frameworks */ = {
+		0ABD21F53A1F039C3955EC7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79FA233DCE1C4EC2382FDC21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB1F8671D1BF4178B5FEA293 /* Frameworks */ = {
+		58943BF2F82ABB8EB863FB23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59809EB76378F0C5A4DE19D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A43941B19EC57D584832BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD53D0145C54A335A4387E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933BAF2D3AE2BC2140C0C458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138EFA1EA0321F458922C9BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34AF6BB0FD285FB0C266546E /* iOS */ = {
+		086FF06A8EFF083DB7D33963 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E2F3441A3AB444D242788DAF /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		423CF16B04E044413B4DF4CE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DFF693D5D87AC69E66FA7608 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		44F860CB1851C89217A6F454 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A7F4EC0BE73E4DDFB7D5D112 /* Pods-LGFlapJackStackView_Example */,
-				5FC41C859A84CE5F3388F6D5 /* Pods-LGFlapJackStackView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5FC41C859A84CE5F3388F6D5 /* Pods-LGFlapJackStackView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				79E4BF1222688D9A60F96C96 /* Pods-LGFlapJackStackView_Tests-acknowledgements.markdown */,
-				8B75A6CF265C883AC4587D19 /* Pods-LGFlapJackStackView_Tests-acknowledgements.plist */,
-				DC7054898BB21F5D2317171D /* Pods-LGFlapJackStackView_Tests-dummy.m */,
-				58CAEEF0ED50375FC277DFD2 /* Pods-LGFlapJackStackView_Tests-environment.h */,
-				80E529E044D48D20846871E9 /* Pods-LGFlapJackStackView_Tests-resources.sh */,
-				B007C0E3150CBE92C1EC04B4 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */,
-				A2CB69BAB68991070D2502AE /* Pods-LGFlapJackStackView_Tests.release.xcconfig */,
-			);
-			name = "Pods-LGFlapJackStackView_Tests";
-			path = "Target Support Files/Pods-LGFlapJackStackView_Tests";
-			sourceTree = "<group>";
-		};
-		6DC12F6648BEB5D1C8C11FD8 = {
-			isa = PBXGroup;
-			children = (
-				48710F025C96D45444B8B505 /* Podfile */,
-				84A26D237DF240550F25CF02 /* Development Pods */,
-				CFDADAC39924242C85A92B54 /* Frameworks */,
-				972CF77E9FD02B3C8CECB6B1 /* Products */,
-				44F860CB1851C89217A6F454 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		84A26D237DF240550F25CF02 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B65468FFA407CC11E49ABD4C /* LGFlapJackStackView */,
+				1DDC0EE03588749180232FBF /* LGFlapJackStackView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		972CF77E9FD02B3C8CECB6B1 /* Products */ = {
+		1B66EE80294B6BBE434F0DD8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				55D306B088765BFE534B9316 /* LGFlapJackStackView.bundle */,
-				EE4E526DFFD133C631F6669C /* LGFlapJackStackView.bundle */,
-				28A315CFD8A4962A44B82CD1 /* libPods-LGFlapJackStackView_Example.a */,
-				5F4A6DDEDCD686BBBEC8EE70 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */,
-				603D8C07E687DE4C0B9621C1 /* libPods-LGFlapJackStackView_Tests.a */,
-				A50411A8EA0700F99E3733FF /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */,
+				0D6B87DC00DE9BDA4F47B2F8 /* LGFlapJack.h */,
+				D5C0E538376FA51FBCA0C05A /* LGFlapJack.m */,
+				6C7E99F32DA6E0272475A0C6 /* LGFlapJackStackView.h */,
+				F7AFE78079FD1F2F2A025786 /* LGFlapJackStackView.m */,
+				B44C8816A55F0B886CC49923 /* LGFlapJackTableViewCell.h */,
+				78362F0884555B29A19008FD /* LGFlapJackTableViewCell.m */,
 			);
-			name = Products;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		A7F4EC0BE73E4DDFB7D5D112 /* Pods-LGFlapJackStackView_Example */ = {
+		1DDC0EE03588749180232FBF /* LGFlapJackStackView */ = {
 			isa = PBXGroup;
 			children = (
-				817CE94D57F426B18BB5B029 /* Pods-LGFlapJackStackView_Example-acknowledgements.markdown */,
-				8F0B96FABEE5F001BD3F89DF /* Pods-LGFlapJackStackView_Example-acknowledgements.plist */,
-				948B81ED5A9D640244BF5F74 /* Pods-LGFlapJackStackView_Example-dummy.m */,
-				5209E0C7CAF843A0CF51DC95 /* Pods-LGFlapJackStackView_Example-environment.h */,
-				43776069233D16231BD044D6 /* Pods-LGFlapJackStackView_Example-resources.sh */,
-				B28B1DD7659CF73480F6BB6F /* Pods-LGFlapJackStackView_Example.debug.xcconfig */,
-				9E3684F7027EF7164A1F7873 /* Pods-LGFlapJackStackView_Example.release.xcconfig */,
-			);
-			name = "Pods-LGFlapJackStackView_Example";
-			path = "Target Support Files/Pods-LGFlapJackStackView_Example";
-			sourceTree = "<group>";
-		};
-		B65468FFA407CC11E49ABD4C /* LGFlapJackStackView */ = {
-			isa = PBXGroup;
-			children = (
-				423CF16B04E044413B4DF4CE /* Pod */,
-				F0CF3755443788549450624E /* Support Files */,
+				FD240922D77A61B0BDE4CAB0 /* Pod */,
+				B88934D8C261E9D76D4AFF77 /* Support Files */,
 			);
 			name = LGFlapJackStackView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CFDADAC39924242C85A92B54 /* Frameworks */ = {
+		3E048F92A84AA61C56278DCA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				34AF6BB0FD285FB0C266546E /* iOS */,
+				C27F4224822586D69CD8AD75 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A283B15E24BDF6B249DB6C4 /* Pods-LGFlapJackStackView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F7265DB6CD0F6FD5713F4B97 /* Pods-LGFlapJackStackView_Example-acknowledgements.markdown */,
+				8433F7ABF6F804591C8CCC85 /* Pods-LGFlapJackStackView_Example-acknowledgements.plist */,
+				5F27A36EF0BC061C60AC213B /* Pods-LGFlapJackStackView_Example-dummy.m */,
+				8A23D0D5442E4561128D4060 /* Pods-LGFlapJackStackView_Example-environment.h */,
+				BC6E90AB664E5AB65A0949F7 /* Pods-LGFlapJackStackView_Example-resources.sh */,
+				6F514CEA44122EF1A14A2A27 /* Pods-LGFlapJackStackView_Example.debug.xcconfig */,
+				90B244E18AC455B83A6A531D /* Pods-LGFlapJackStackView_Example.release.xcconfig */,
+			);
+			name = "Pods-LGFlapJackStackView_Example";
+			path = "Target Support Files/Pods-LGFlapJackStackView_Example";
+			sourceTree = "<group>";
+		};
+		64971B5299EF9772F0F932F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE569178FC73287BA73A0986 /* LGFlapJackStackView.bundle */,
+				2D982D1BE82C85384785D914 /* LGFlapJackStackView.bundle */,
+				5FEB8112AAE703BC92F37353 /* libPods-LGFlapJackStackView_Example.a */,
+				370C94251961FDC2A5130083 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */,
+				73A2FCDDBCF2CEB639B4527A /* libPods-LGFlapJackStackView_Tests.a */,
+				5F46FACD486B6A0708BBA8D6 /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940620AAA64300F25683370F = {
+			isa = PBXGroup;
+			children = (
+				150A7C5D2AF696B03F6F96D0 /* Podfile */,
+				086FF06A8EFF083DB7D33963 /* Development Pods */,
+				A2B9B0959A0154E1D7B739E8 /* Frameworks */,
+				64971B5299EF9772F0F932F8 /* Products */,
+				A608AE01608FF554107CD934 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2197608C55FD40EFCE9864 /* Pods-LGFlapJackStackView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE109B29263451ABAFF17DFD /* Pods-LGFlapJackStackView_Tests-acknowledgements.markdown */,
+				96881C90F0446E36F40BEADB /* Pods-LGFlapJackStackView_Tests-acknowledgements.plist */,
+				4348F31AB02728369E95FADA /* Pods-LGFlapJackStackView_Tests-dummy.m */,
+				CB6373A628568CC25E1EE2B7 /* Pods-LGFlapJackStackView_Tests-environment.h */,
+				1F6209CAF2A4B86DED36BB56 /* Pods-LGFlapJackStackView_Tests-resources.sh */,
+				B9827229B8143A6D54DA1C40 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */,
+				2EF16CEC45D25E6BEA8EAC63 /* Pods-LGFlapJackStackView_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGFlapJackStackView_Tests";
+			path = "Target Support Files/Pods-LGFlapJackStackView_Tests";
+			sourceTree = "<group>";
+		};
+		A2B9B0959A0154E1D7B739E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E048F92A84AA61C56278DCA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DFF693D5D87AC69E66FA7608 /* Classes */ = {
+		A608AE01608FF554107CD934 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF8D9220157EFA61CA518EA9 /* LGFlapJack.h */,
-				A706C442D9BD42A120802D1E /* LGFlapJack.m */,
-				329899DF770AF9EF3391E5EE /* LGFlapJackStackView.h */,
-				3655D83189497F1B78618360 /* LGFlapJackStackView.m */,
-				F5C79A2C2A7A799C31028CB8 /* LGFlapJackTableViewCell.h */,
-				30CF7F3B2A2872D8D6725B1E /* LGFlapJackTableViewCell.m */,
+				4A283B15E24BDF6B249DB6C4 /* Pods-LGFlapJackStackView_Example */,
+				9E2197608C55FD40EFCE9864 /* Pods-LGFlapJackStackView_Tests */,
 			);
-			path = Classes;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F0CF3755443788549450624E /* Support Files */ = {
+		B88934D8C261E9D76D4AFF77 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CA83A332F15387F17A2713BB /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig */,
-				ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */,
-				277F4772A5722D5237E33641 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */,
-				C7422B48694A5801A9284919 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch */,
-				456E02C38402EF804E852FB5 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig */,
-				E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */,
-				1B005C60E80BA49931B9E4F6 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */,
-				9E55B1EDA3D10DED4F52A2A9 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch */,
+				5A46D28AB3C2A8D826C3416E /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView.xcconfig */,
+				747080E1E2B7C1F7C372DC50 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */,
+				876F02FF665E6FE8546B175F /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m */,
+				BD062ED00370D6465D578016 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch */,
+				100F2DDF5041ECDDD84A7911 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView.xcconfig */,
+				87A88FE869A8A0B20A92B835 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */,
+				EC4B8DC6744098750789B604 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m */,
+				1805AB2DCBFB9CD4C6BF9EC0 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
 			sourceTree = "<group>";
 		};
+		FD240922D77A61B0BDE4CAB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1B66EE80294B6BBE434F0DD8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		98453427D3B11791009F1855 /* Headers */ = {
+		8A40935946C00FE73DFDA2B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471D89A7720F9897FC1F1577 /* LGFlapJack.h in Headers */,
-				5AF76C9675A2E6F1F3A7D43E /* LGFlapJackStackView.h in Headers */,
-				F745527958DF097232B0AF81 /* LGFlapJackTableViewCell.h in Headers */,
+				C738382397C62EC032F7023C /* LGFlapJack.h in Headers */,
+				8B86375C735AF2C98C453F5F /* LGFlapJackStackView.h in Headers */,
+				2C079DDE9023FC7370764593 /* LGFlapJackTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9C80A1DF5709106A2C59192 /* Headers */ = {
+		AB31FD612648EA672A5FBF19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB808388C7403654AD4160F /* LGFlapJack.h in Headers */,
-				2165FBC4F786FA212DA9C154 /* LGFlapJackStackView.h in Headers */,
-				3CB325D6860D4F0FD5E3DBD8 /* LGFlapJackTableViewCell.h in Headers */,
+				F5C517A2F8730505E9CBA675 /* LGFlapJack.h in Headers */,
+				FE8AC6A5FC3411296E59C9E2 /* LGFlapJackStackView.h in Headers */,
+				89931731ED41A6FC8783763F /* LGFlapJackTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D765BB41D4401FFF5DB9343 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */ = {
+		0B9B7359280632BA8E13CBE0 /* Pods-LGFlapJackStackView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED863BF3974ADBF8080E1AA7 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView" */;
+			buildConfigurationList = 4EFAAFD812B8A7ED76F14666 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests" */;
 			buildPhases = (
-				6607202C46BBC7736E748EC9 /* Sources */,
-				84FD105788B1C219989C9D07 /* Frameworks */,
-				98453427D3B11791009F1855 /* Headers */,
+				5CDC1C09E3ECEF8FBDE57512 /* Sources */,
+				0356D44EE940CC2444B81CC7 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ED806762E82D19907AC0F95E /* PBXTargetDependency */,
-			);
-			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
-			productName = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
-			productReference = 5F4A6DDEDCD686BBBEC8EE70 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		0E3E1EA082DB8D887CED5D88 /* Pods-LGFlapJackStackView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CCD2AE0E3C0A6A17F787CCC /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example" */;
-			buildPhases = (
-				E7AF2C420450CF4C38A77786 /* Sources */,
-				E151FABE75C142B36572994F /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D710F5306F66CC6BDD953D3C /* PBXTargetDependency */,
-			);
-			name = "Pods-LGFlapJackStackView_Example";
-			productName = "Pods-LGFlapJackStackView_Example";
-			productReference = 28A315CFD8A4962A44B82CD1 /* libPods-LGFlapJackStackView_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		2E4489FC66121FD0A6A50471 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7C5BB69153EC9842202051E3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView" */;
-			buildPhases = (
-				3F2647357352B2EC82F2807A /* Sources */,
-				03C47F2C41F8C331DB447F62 /* Frameworks */,
-				E9C80A1DF5709106A2C59192 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2DD21A03A1C0644423FF5135 /* PBXTargetDependency */,
-			);
-			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
-			productName = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
-			productReference = A50411A8EA0700F99E3733FF /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		6392BCAE3061B85916B53612 /* Pods-LGFlapJackStackView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43351D2894B691DECC4F6EF3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests" */;
-			buildPhases = (
-				4F343469B3A6BD4D6D71EB86 /* Sources */,
-				3B34B4FE6A746F28A73A1D75 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6645D452F5837ECB10E483E0 /* PBXTargetDependency */,
+				DFD4D0B3E5EC6165B12BDDB8 /* PBXTargetDependency */,
 			);
 			name = "Pods-LGFlapJackStackView_Tests";
 			productName = "Pods-LGFlapJackStackView_Tests";
-			productReference = 603D8C07E687DE4C0B9621C1 /* libPods-LGFlapJackStackView_Tests.a */;
+			productReference = 73A2FCDDBCF2CEB639B4527A /* libPods-LGFlapJackStackView_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		93075B2A2A2FFE813CC79020 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */ = {
+		4C9D639EF29B955DB76C718C /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB85ED6A3C872203CCE54D78 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView" */;
+			buildConfigurationList = ACD982B6FAC7DC679EA0CF41 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView" */;
 			buildPhases = (
-				247C0EF449FD9B776776E5C1 /* Sources */,
-				C3670B4B2C7A28814E7C185E /* Frameworks */,
-				8BE730F32FBED26C91D9F2CD /* Resources */,
+				99CED47F1604165545C40AE0 /* Sources */,
+				82A43941B19EC57D584832BE /* Frameworks */,
+				8A40935946C00FE73DFDA2B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB31AAEAD40847AEAB571267 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
+			productName = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
+			productReference = 370C94251961FDC2A5130083 /* libPods-LGFlapJackStackView_Example-LGFlapJackStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5BF556DBA27D955456F857EE /* Pods-LGFlapJackStackView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFBAB737B679FE75B8037EF /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example" */;
+			buildPhases = (
+				B8A13D9F242E6F0F919FB567 /* Sources */,
+				58943BF2F82ABB8EB863FB23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609AEDEB983A281D77947D20 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGFlapJackStackView_Example";
+			productName = "Pods-LGFlapJackStackView_Example";
+			productReference = 5FEB8112AAE703BC92F37353 /* libPods-LGFlapJackStackView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		788B899CB686AAE221081DD2 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B328041CDC21BAC49C416D /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView" */;
+			buildPhases = (
+				768D67832F438DF3E260E420 /* Sources */,
+				933BAF2D3AE2BC2140C0C458 /* Frameworks */,
+				AB31FD612648EA672A5FBF19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882BEFF80E17E1DBCDFF0202 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+			productName = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+			productReference = 5F46FACD486B6A0708BBA8D6 /* libPods-LGFlapJackStackView_Tests-LGFlapJackStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90389463303FC97DA70B154F /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74D740E71A136A8C7C27CCE /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView" */;
+			buildPhases = (
+				B0C9FC92DF55E7A35D09607A /* Sources */,
+				093A66CC74CF56C8F4BAF690 /* Frameworks */,
+				7948A3982907DE9C2619D1C5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -393,16 +393,16 @@
 			);
 			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
 			productName = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
-			productReference = EE4E526DFFD133C631F6669C /* LGFlapJackStackView.bundle */;
+			productReference = 2D982D1BE82C85384785D914 /* LGFlapJackStackView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		97581E67F7AFE4242CBE6D99 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */ = {
+		95E60E3BD14B383DFC79D5FC /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70A85A17BF8F337B0AD94FCB /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView" */;
+			buildConfigurationList = E7859B9C1699525EC81E5388 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView" */;
 			buildPhases = (
-				AA1F57DACB5A347470FBEB76 /* Sources */,
-				FB1F8671D1BF4178B5FEA293 /* Frameworks */,
-				4B834A37542AE8E4EBA9DDF1 /* Resources */,
+				965256032251C43326315762 /* Sources */,
+				0ABD21F53A1F039C3955EC7D /* Frameworks */,
+				A3EC2C2263BDA3E3B1A27A6A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -410,48 +410,48 @@
 			);
 			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
 			productName = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
-			productReference = 55D306B088765BFE534B9316 /* LGFlapJackStackView.bundle */;
+			productReference = FE569178FC73287BA73A0986 /* LGFlapJackStackView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		71FAAD90DF8F5C2E4BB97EDF /* Project object */ = {
+		127082A122BE204298944598 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = CF218AA409D93880A902425F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = B31781F3DAB5DB5BD548EF0C /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6DC12F6648BEB5D1C8C11FD8;
-			productRefGroup = 972CF77E9FD02B3C8CECB6B1 /* Products */;
+			mainGroup = 940620AAA64300F25683370F;
+			productRefGroup = 64971B5299EF9772F0F932F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E3E1EA082DB8D887CED5D88 /* Pods-LGFlapJackStackView_Example */,
-				0D765BB41D4401FFF5DB9343 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */,
-				93075B2A2A2FFE813CC79020 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */,
-				6392BCAE3061B85916B53612 /* Pods-LGFlapJackStackView_Tests */,
-				2E4489FC66121FD0A6A50471 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */,
-				97581E67F7AFE4242CBE6D99 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */,
+				5BF556DBA27D955456F857EE /* Pods-LGFlapJackStackView_Example */,
+				4C9D639EF29B955DB76C718C /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */,
+				90389463303FC97DA70B154F /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */,
+				0B9B7359280632BA8E13CBE0 /* Pods-LGFlapJackStackView_Tests */,
+				788B899CB686AAE221081DD2 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */,
+				95E60E3BD14B383DFC79D5FC /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B834A37542AE8E4EBA9DDF1 /* Resources */ = {
+		7948A3982907DE9C2619D1C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BE730F32FBED26C91D9F2CD /* Resources */ = {
+		A3EC2C2263BDA3E3B1A27A6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,89 +461,105 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		247C0EF449FD9B776776E5C1 /* Sources */ = {
+		5CDC1C09E3ECEF8FBDE57512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C4DB8E1642A3D2463C575C /* Pods-LGFlapJackStackView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768D67832F438DF3E260E420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82AD44F51076BE08DEA9D3D /* LGFlapJack.m in Sources */,
+				2B2AD7A3E8AAB0BFEEE7064A /* LGFlapJackStackView.m in Sources */,
+				DE7BF7DD01781698031569F8 /* LGFlapJackTableViewCell.m in Sources */,
+				28C3E2BEDF64436281296673 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965256032251C43326315762 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F2647357352B2EC82F2807A /* Sources */ = {
+		99CED47F1604165545C40AE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADF76CB7B38E4187E39C804 /* LGFlapJack.m in Sources */,
-				DE13C72DA191B1A5E2B4EF0D /* LGFlapJackStackView.m in Sources */,
-				464353A542885B8DDCCA680F /* LGFlapJackTableViewCell.m in Sources */,
-				8EE2B929347295ABC330D71A /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-dummy.m in Sources */,
+				D030DC9231D07CA64467742B /* LGFlapJack.m in Sources */,
+				4690465C181AF3982725FF10 /* LGFlapJackStackView.m in Sources */,
+				6E6B8E1A2520D1A987918ACA /* LGFlapJackTableViewCell.m in Sources */,
+				8BE5E04A1608F623F9C25E35 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F343469B3A6BD4D6D71EB86 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E57FFDA4F87F6F3D083CD654 /* Pods-LGFlapJackStackView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6607202C46BBC7736E748EC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94B078491C722A38501D7340 /* LGFlapJack.m in Sources */,
-				98442CCEA8FE40CF29DAD309 /* LGFlapJackStackView.m in Sources */,
-				8CA4DCF72A8A134D63EAD96B /* LGFlapJackTableViewCell.m in Sources */,
-				DE9AE8211D93E40F4875182B /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA1F57DACB5A347470FBEB76 /* Sources */ = {
+		B0C9FC92DF55E7A35D09607A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7AF2C420450CF4C38A77786 /* Sources */ = {
+		B8A13D9F242E6F0F919FB567 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BC14858650A8B24EAF12FA /* Pods-LGFlapJackStackView_Example-dummy.m in Sources */,
+				70CF20EEF9D198EA9F41C6CF /* Pods-LGFlapJackStackView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2DD21A03A1C0644423FF5135 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
-			target = 97581E67F7AFE4242CBE6D99 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */;
-			targetProxy = 4826281DEA6F20E83A80D888 /* PBXContainerItemProxy */;
-		};
-		6645D452F5837ECB10E483E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
-			target = 2E4489FC66121FD0A6A50471 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */;
-			targetProxy = 208B7EC6731FFAAC5B116F9B /* PBXContainerItemProxy */;
-		};
-		D710F5306F66CC6BDD953D3C /* PBXTargetDependency */ = {
+		609AEDEB983A281D77947D20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView";
-			target = 0D765BB41D4401FFF5DB9343 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */;
-			targetProxy = 02B0F6B2A8CDC753129443A9 /* PBXContainerItemProxy */;
+			target = 4C9D639EF29B955DB76C718C /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView */;
+			targetProxy = 0BA396B42A98CA42F3EE880C /* PBXContainerItemProxy */;
 		};
-		ED806762E82D19907AC0F95E /* PBXTargetDependency */ = {
+		882BEFF80E17E1DBCDFF0202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView";
+			target = 95E60E3BD14B383DFC79D5FC /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView */;
+			targetProxy = 2028AB9C725297B21848CCAB /* PBXContainerItemProxy */;
+		};
+		DFD4D0B3E5EC6165B12BDDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView";
+			target = 788B899CB686AAE221081DD2 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView */;
+			targetProxy = E6B94B3C135D00F1F0CE5E03 /* PBXContainerItemProxy */;
+		};
+		FB31AAEAD40847AEAB571267 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView";
-			target = 93075B2A2A2FFE813CC79020 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */;
-			targetProxy = 3FF68112FCF34152FF26F39F /* PBXContainerItemProxy */;
+			target = 90389463303FC97DA70B154F /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView */;
+			targetProxy = 5718298C7E3A554F7E4DD960 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		000A6074A1101BEE1F16629E /* Debug */ = {
+		009E5EAADAAD0D90261E33E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B244E18AC455B83A6A531D /* Pods-LGFlapJackStackView_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		36B29A5662EEFEC4299D04A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -582,21 +598,9 @@
 			};
 			name = Debug;
 		};
-		14256049024E482539F7947C /* Release */ = {
+		37F046A7A3BFDFD7FD79E179 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LGFlapJackStackView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		4247E10A05A68507A67BCC90 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E3684F7027EF7164A1F7873 /* Pods-LGFlapJackStackView_Example.release.xcconfig */;
+			baseConfigurationReference = 2EF16CEC45D25E6BEA8EAC63 /* Pods-LGFlapJackStackView_Tests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -610,9 +614,25 @@
 			};
 			name = Release;
 		};
-		49C1CBFE9896A384DC6289CD /* Release */ = {
+		3CDB9C928426A1282ADC09C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			baseConfigurationReference = B9827229B8143A6D54DA1C40 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		404FBE76BDF44D4B31D9FD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747080E1E2B7C1F7C372DC50 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = LGFlapJackStackView;
@@ -620,27 +640,27 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		6480AAE5C2F0EE5F92CCC25E /* Debug */ = {
+		417173289A4E5527C8A57AB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			baseConfigurationReference = 6F514CEA44122EF1A14A2A27 /* Pods-LGFlapJackStackView_Example.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView/Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		6BDC14DF78A4A972BB7E99E3 /* Release */ = {
+		60B7F6109160A9CE421CB120 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
+			baseConfigurationReference = 87A88FE869A8A0B20A92B835 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch";
@@ -654,7 +674,19 @@
 			};
 			name = Release;
 		};
-		77DA1383CBCDE014E6756E65 /* Release */ = {
+		6A9E805E5EEB92D698448837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747080E1E2B7C1F7C372DC50 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGFlapJackStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8110A8294C082580526562D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -688,65 +720,9 @@
 			};
 			name = Release;
 		};
-		77E015379D8BEE10E839874B /* Debug */ = {
+		96921027BBAD568FC557862A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B007C0E3150CBE92C1EC04B4 /* Pods-LGFlapJackStackView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A3CBBF76D950941857AE2B93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LGFlapJackStackView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B312E1BFF3D1EE78F7A397AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2CB69BAB68991070D2502AE /* Pods-LGFlapJackStackView_Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		CC9864F8B1097B9E24D3741F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LGFlapJackStackView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CD8FA75291DC704CB507ECBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBA57D09EF69FCF6B941EF0 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			baseConfigurationReference = 747080E1E2B7C1F7C372DC50 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView/Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch";
@@ -760,9 +736,9 @@
 			};
 			name = Release;
 		};
-		D3A2CCA0404A75406C24A0E1 /* Debug */ = {
+		C2063B77C531C347C0853E8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E585C5DE8DCF23464764E95B /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
+			baseConfigurationReference = 87A88FE869A8A0B20A92B835 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView/Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-prefix.pch";
@@ -776,89 +752,113 @@
 			};
 			name = Debug;
 		};
-		E2A1A1EEE606D97C17D945DF /* Debug */ = {
+		D61D75A1AA72061876081E21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B28B1DD7659CF73480F6BB6F /* Pods-LGFlapJackStackView_Example.debug.xcconfig */;
+			baseConfigurationReference = 87A88FE869A8A0B20A92B835 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGFlapJackStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D6ABCE6F3F2B4EA541A664B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747080E1E2B7C1F7C372DC50 /* Pods-LGFlapJackStackView_Example-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGFlapJackStackView_Example-LGFlapJackStackView/Pods-LGFlapJackStackView_Example-LGFlapJackStackView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
+		E1F177F10D20E34C9DED1D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A88FE869A8A0B20A92B835 /* Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGFlapJackStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43351D2894B691DECC4F6EF3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests" */ = {
+		42B328041CDC21BAC49C416D /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77E015379D8BEE10E839874B /* Debug */,
-				B312E1BFF3D1EE78F7A397AA /* Release */,
+				C2063B77C531C347C0853E8C /* Debug */,
+				60B7F6109160A9CE421CB120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CCD2AE0E3C0A6A17F787CCC /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example" */ = {
+		4EFAAFD812B8A7ED76F14666 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2A1A1EEE606D97C17D945DF /* Debug */,
-				4247E10A05A68507A67BCC90 /* Release */,
+				3CDB9C928426A1282ADC09C2 /* Debug */,
+				37F046A7A3BFDFD7FD79E179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70A85A17BF8F337B0AD94FCB /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView" */ = {
+		ACD982B6FAC7DC679EA0CF41 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC9864F8B1097B9E24D3741F /* Debug */,
-				14256049024E482539F7947C /* Release */,
+				D6ABCE6F3F2B4EA541A664B4 /* Debug */,
+				96921027BBAD568FC557862A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C5BB69153EC9842202051E3 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView" */ = {
+		B31781F3DAB5DB5BD548EF0C /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3A2CCA0404A75406C24A0E1 /* Debug */,
-				6BDC14DF78A4A972BB7E99E3 /* Release */,
+				36B29A5662EEFEC4299D04A7 /* Debug */,
+				8110A8294C082580526562D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF218AA409D93880A902425F /* Build configuration list for PBXProject "Pods" */ = {
+		D74D740E71A136A8C7C27CCE /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000A6074A1101BEE1F16629E /* Debug */,
-				77DA1383CBCDE014E6756E65 /* Release */,
+				404FBE76BDF44D4B31D9FD4B /* Debug */,
+				6A9E805E5EEB92D698448837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB85ED6A3C872203CCE54D78 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView-LGFlapJackStackView" */ = {
+		DAFBAB737B679FE75B8037EF /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3CBBF76D950941857AE2B93 /* Debug */,
-				49C1CBFE9896A384DC6289CD /* Release */,
+				417173289A4E5527C8A57AB9 /* Debug */,
+				009E5EAADAAD0D90261E33E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED863BF3974ADBF8080E1AA7 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Example-LGFlapJackStackView" */ = {
+		E7859B9C1699525EC81E5388 /* Build configuration list for PBXNativeTarget "Pods-LGFlapJackStackView_Tests-LGFlapJackStackView-LGFlapJackStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6480AAE5C2F0EE5F92CCC25E /* Debug */,
-				CD8FA75291DC704CB507ECBD /* Release */,
+				E1F177F10D20E34C9DED1D88 /* Debug */,
+				D61D75A1AA72061876081E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 71FAAD90DF8F5C2E4BB97EDF /* Project object */;
+	rootObject = 127082A122BE204298944598 /* Project object */;
 }
