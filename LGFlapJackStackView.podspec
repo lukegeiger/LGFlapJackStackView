@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LGFlapJackStackView"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "A view that supports competing, horizontally stacked bar graphs. I call them Flap Jacks. "
   s.description      = <<-DESC
                         This graph displays two numbers competing with one another in a specific category. The greater the difference in their competition, the more dominate one side appears visually.
