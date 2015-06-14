@@ -1,5 +1,7 @@
 # LGFlapJackStackView
 
+[![Join the chat at https://gitter.im/lukegeiger/LGFlapJackStackView](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lukegeiger/LGFlapJackStackView?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Version](https://img.shields.io/cocoapods/v/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
 [![License](https://img.shields.io/cocoapods/l/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
 [![Platform](https://img.shields.io/cocoapods/p/LGFlapJackStackView.svg?style=flat)](http://cocoapods.org/pods/LGFlapJackStackView)
