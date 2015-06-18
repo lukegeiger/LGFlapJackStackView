@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B9B7359280632BA8E13CBE0"
+               BlueprintIdentifier = "D642C47D894305A605BCACEB"
                BuildableName = "libPods-LGFlapJackStackView_Tests.a"
                BlueprintName = "Pods-LGFlapJackStackView_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
