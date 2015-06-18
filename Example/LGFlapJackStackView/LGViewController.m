@@ -28,8 +28,8 @@
     NSMutableArray*flapJacks = [NSMutableArray new];
     for (int i = 0; i<12; i++) {
         LGFlapJack *flapJack = [LGFlapJack new];
-        flapJack.leftBarTotal = [NSNumber numberWithInt:[self getRandomNumberBetween:0 to:100]];
-        flapJack.rightBarTotal = [NSNumber numberWithInt:[self getRandomNumberBetween:0 to:100]];
+        flapJack.leftBarTotal = [NSNumber numberWithInt:[self getRandomNumberBetween:0 to:0]];
+        flapJack.rightBarTotal = [NSNumber numberWithInt:[self getRandomNumberBetween:0 to:0]];
         flapJack.leftBarColor = [UIColor colorWithRed:17/255. green:159/255. blue:194/255. alpha:1.0];
         flapJack.rightBarColor = [UIColor colorWithRed:206/255. green:218/255. blue:60/255. alpha:1.0];
         flapJack.inlineString = [self randomCategoryName];

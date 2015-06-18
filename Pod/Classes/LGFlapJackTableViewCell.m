@@ -66,6 +66,11 @@
     
     float leftWidth = self.leftPercentage * width;    
     float rightWidth = self.rightPercentage * width;
+    
+    if (leftWidth == 0 && rightWidth == 0) {
+        leftWidth = width/2;
+        rightWidth = leftWidth;
+    }
 
     self.leftBarView.frame = CGRectMake(self.inlineLabel.frame.size.width, 0, leftWidth, self.frame.size.height);
     self.rightBarView.frame = CGRectMake(leftWidth+self.inlineLabel.frame.size.width, 0, rightWidth, self.frame.size.height);
@@ -83,8 +88,17 @@
     self.rightBarView.backgroundColor = flapJack.rightBarColor;
     
     float pointTotal = flapJack.leftBarTotal.integerValue + flapJack.rightBarTotal.integerValue;
+    
     float leftPercentage = (flapJack.leftBarTotal.integerValue / pointTotal);
     float rightPercentage = (flapJack.rightBarTotal.integerValue / pointTotal);
+    
+    if (leftPercentage != leftPercentage) {
+        leftPercentage = 0;
+    }
+    
+    if (rightPercentage != rightPercentage) {
+        rightPercentage = 0;
+    }
     
     self.leftPercentage = leftPercentage;
     self.rightPercentage = rightPercentage;

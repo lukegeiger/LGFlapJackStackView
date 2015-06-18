@@ -12,11 +12,17 @@
 
 -(NSString*)leftBarFormatString{
     float percentage = (self.leftBarTotal.floatValue/(self.leftBarTotal.integerValue+self.rightBarTotal.integerValue));
+    if (percentage!=percentage) {
+        percentage = 0;
+    }
     return [NSString stringWithFormat:@"%@\n(%.1lf%%)",self.leftBarTotal,(percentage*100)];
 }
 
 -(NSString*)rightBarFormatString{
     float percentage = (self.rightBarTotal.floatValue/(self.leftBarTotal.integerValue+self.rightBarTotal.integerValue));
+    if (percentage!=percentage) {
+        percentage = 0;
+    }
     return [NSString stringWithFormat:@"%@\n(%.1lf%%)",self.rightBarTotal,(percentage*100)];
 }
 
